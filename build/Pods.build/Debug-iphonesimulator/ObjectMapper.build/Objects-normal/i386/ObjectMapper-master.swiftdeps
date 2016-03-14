@@ -1,0 +1,18 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "2d6d013d3e9e9e33d6589011d2600f22"
+build_time: [511235753, 992904000]
+inputs:
+  "/Users/asatyamurthy/Desktop/PhunwareHW/Pods/ObjectMapper/ObjectMapper/Transforms/URLTransform.swift": [511206713, 0]
+  "/Users/asatyamurthy/Desktop/PhunwareHW/Pods/ObjectMapper/ObjectMapper/Transforms/TransformOf.swift": [511206713, 0]
+  "/Users/asatyamurthy/Desktop/PhunwareHW/Pods/ObjectMapper/ObjectMapper/Core/FromJSON.swift": [511206713, 0]
+  "/Users/asatyamurthy/Desktop/PhunwareHW/Pods/ObjectMapper/ObjectMapper/Transforms/TransformType.swift": [511206713, 0]
+  "/Users/asatyamurthy/Desktop/PhunwareHW/Pods/ObjectMapper/ObjectMapper/Transforms/DateFormatterTransform.swift": [511206713, 0]
+  "/Users/asatyamurthy/Desktop/PhunwareHW/Pods/ObjectMapper/ObjectMapper/Core/Mapper.swift": [511206713, 0]
+  "/Users/asatyamurthy/Desktop/PhunwareHW/Pods/ObjectMapper/ObjectMapper/Core/ToJSON.swift": [511206713, 0]
+  "/Users/asatyamurthy/Desktop/PhunwareHW/Pods/ObjectMapper/ObjectMapper/Transforms/DateTransform.swift": [511206713, 0]
+  "/Users/asatyamurthy/Desktop/PhunwareHW/Pods/ObjectMapper/ObjectMapper/Transforms/EnumTransform.swift": [511206713, 0]
+  "/Users/asatyamurthy/Desktop/PhunwareHW/Pods/ObjectMapper/ObjectMapper/Core/Operators.swift": [511206713, 0]
+  "/Users/asatyamurthy/Desktop/PhunwareHW/Pods/ObjectMapper/ObjectMapper/Core/Map.swift": [511206713, 0]
+  "/Users/asatyamurthy/Desktop/PhunwareHW/Pods/ObjectMapper/ObjectMapper/Transforms/ISO8601DateTransform.swift": [511206713, 0]
+  "/Users/asatyamurthy/Desktop/PhunwareHW/Pods/ObjectMapper/ObjectMapper/Core/Mappable.swift": [511206713, 0]
+  "/Users/asatyamurthy/Desktop/PhunwareHW/Pods/ObjectMapper/ObjectMapper/Transforms/CustomDateFormatTransform.swift": [511206713, 0]

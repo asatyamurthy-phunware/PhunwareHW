@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A25AE591C90F8D900B16EF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A25AE581C90F8D900B16EF9 /* AppDelegate.swift */; };
+		8A25AE5E1C90F8D900B16EF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A25AE5C1C90F8D900B16EF9 /* Main.storyboard */; };
+		8A25AE601C90F8D900B16EF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A25AE5F1C90F8D900B16EF9 /* Assets.xcassets */; };
+		8A25AE631C90F8D900B16EF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A25AE611C90F8D900B16EF9 /* LaunchScreen.storyboard */; };
+		8A25AE6E1C90F8D900B16EF9 /* PhunwareHWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A25AE6D1C90F8D900B16EF9 /* PhunwareHWTests.swift */; };
+		8A25AE791C90F8D900B16EF9 /* PhunwareHWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A25AE781C90F8D900B16EF9 /* PhunwareHWUITests.swift */; };
+		8A25F2711C9609F200E24D87 /* StarWarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A25F26E1C9609F200E24D87 /* StarWarItem.swift */; };
+		8A25F2721C9609F200E24D87 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A25F2701C9609F200E24D87 /* NetworkClient.swift */; };
+		8A25F2771C960A0000E24D87 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A25F2741C960A0000E24D87 /* ListViewController.swift */; };
+		8A25F2781C960A0000E24D87 /* ListItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A25F2761C960A0000E24D87 /* ListItemCell.swift */; };
+		8A25F27B1C964EDA00E24D87 /* placeholder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A25F27A1C964EDA00E24D87 /* placeholder.jpg */; };
+		C6349D9E50714596476D0CAB /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7851E8C35D42D83A8E7194 /* Pods.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A25AE6A1C90F8D900B16EF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A25AE4D1C90F8D900B16EF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A25AE541C90F8D900B16EF9;
+			remoteInfo = PhunwareHW;
+		};
+		8A25AE751C90F8D900B16EF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A25AE4D1C90F8D900B16EF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A25AE541C90F8D900B16EF9;
+			remoteInfo = PhunwareHW;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A25AE551C90F8D900B16EF9 /* PhunwareHW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhunwareHW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A25AE581C90F8D900B16EF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A25AE5D1C90F8D900B16EF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A25AE5F1C90F8D900B16EF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A25AE621C90F8D900B16EF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A25AE641C90F8D900B16EF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A25AE691C90F8D900B16EF9 /* PhunwareHWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhunwareHWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A25AE6D1C90F8D900B16EF9 /* PhunwareHWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhunwareHWTests.swift; sourceTree = "<group>"; };
+		8A25AE6F1C90F8D900B16EF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A25AE741C90F8D900B16EF9 /* PhunwareHWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhunwareHWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A25AE781C90F8D900B16EF9 /* PhunwareHWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhunwareHWUITests.swift; sourceTree = "<group>"; };
+		8A25AE7A1C90F8D900B16EF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A25F26E1C9609F200E24D87 /* StarWarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarItem.swift; sourceTree = "<group>"; };
+		8A25F2701C9609F200E24D87 /* NetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		8A25F2741C960A0000E24D87 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		8A25F2761C960A0000E24D87 /* ListItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItemCell.swift; sourceTree = "<group>"; };
+		8A25F27A1C964EDA00E24D87 /* placeholder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholder.jpg; sourceTree = "<group>"; };
+		D28A7A52E341B2D35BA6E005 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F1D2BAB0193BC71D9DABE6D1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		FB7851E8C35D42D83A8E7194 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A25AE521C90F8D900B16EF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6349D9E50714596476D0CAB /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A25AE661C90F8D900B16EF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A25AE711C90F8D900B16EF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A25AE4C1C90F8D900B16EF9 = {
+			isa = PBXGroup;
+			children = (
+				8A25AE571C90F8D900B16EF9 /* PhunwareHW */,
+				8A25AE6C1C90F8D900B16EF9 /* PhunwareHWTests */,
+				8A25AE771C90F8D900B16EF9 /* PhunwareHWUITests */,
+				8A25AE561C90F8D900B16EF9 /* Products */,
+				F5B53D8603017494EA85C2C7 /* Pods */,
+				9ECE4E022D32125E5A734DB8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8A25AE561C90F8D900B16EF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A25AE551C90F8D900B16EF9 /* PhunwareHW.app */,
+				8A25AE691C90F8D900B16EF9 /* PhunwareHWTests.xctest */,
+				8A25AE741C90F8D900B16EF9 /* PhunwareHWUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A25AE571C90F8D900B16EF9 /* PhunwareHW */ = {
+			isa = PBXGroup;
+			children = (
+				8A25F2791C964ECE00E24D87 /* Images */,
+				8A25F2731C960A0000E24D87 /* ViewControllers */,
+				8A25F2751C960A0000E24D87 /* Views */,
+				8A25F26D1C9609F200E24D87 /* Model */,
+				8A25F26F1C9609F200E24D87 /* Network */,
+				8A25AE581C90F8D900B16EF9 /* AppDelegate.swift */,
+				8A25AE5C1C90F8D900B16EF9 /* Main.storyboard */,
+				8A25AE5F1C90F8D900B16EF9 /* Assets.xcassets */,
+				8A25AE611C90F8D900B16EF9 /* LaunchScreen.storyboard */,
+				8A25AE641C90F8D900B16EF9 /* Info.plist */,
+			);
+			path = PhunwareHW;
+			sourceTree = "<group>";
+		};
+		8A25AE6C1C90F8D900B16EF9 /* PhunwareHWTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A25AE6D1C90F8D900B16EF9 /* PhunwareHWTests.swift */,
+				8A25AE6F1C90F8D900B16EF9 /* Info.plist */,
+			);
+			path = PhunwareHWTests;
+			sourceTree = "<group>";
+		};
+		8A25AE771C90F8D900B16EF9 /* PhunwareHWUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A25AE781C90F8D900B16EF9 /* PhunwareHWUITests.swift */,
+				8A25AE7A1C90F8D900B16EF9 /* Info.plist */,
+			);
+			path = PhunwareHWUITests;
+			sourceTree = "<group>";
+		};
+		8A25F26D1C9609F200E24D87 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8A25F26E1C9609F200E24D87 /* StarWarItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A25F26F1C9609F200E24D87 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8A25F2701C9609F200E24D87 /* NetworkClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		8A25F2731C960A0000E24D87 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8A25F2741C960A0000E24D87 /* ListViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8A25F2751C960A0000E24D87 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8A25F2761C960A0000E24D87 /* ListItemCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8A25F2791C964ECE00E24D87 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8A25F27A1C964EDA00E24D87 /* placeholder.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		9ECE4E022D32125E5A734DB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB7851E8C35D42D83A8E7194 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5B53D8603017494EA85C2C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1D2BAB0193BC71D9DABE6D1 /* Pods.debug.xcconfig */,
+				D28A7A52E341B2D35BA6E005 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A25AE541C90F8D900B16EF9 /* PhunwareHW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A25AE7D1C90F8D900B16EF9 /* Build configuration list for PBXNativeTarget "PhunwareHW" */;
+			buildPhases = (
+				65009C5B0EA635AC8004489B /* Check Pods Manifest.lock */,
+				8A25AE511C90F8D900B16EF9 /* Sources */,
+				8A25AE521C90F8D900B16EF9 /* Frameworks */,
+				8A25AE531C90F8D900B16EF9 /* Resources */,
+				5FBBDE66771CE5090A9547DB /* Embed Pods Frameworks */,
+				B1D290D64E2EEFBE9117C209 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhunwareHW;
+			productName = PhunwareHW;
+			productReference = 8A25AE551C90F8D900B16EF9 /* PhunwareHW.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A25AE681C90F8D900B16EF9 /* PhunwareHWTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A25AE801C90F8D900B16EF9 /* Build configuration list for PBXNativeTarget "PhunwareHWTests" */;
+			buildPhases = (
+				8A25AE651C90F8D900B16EF9 /* Sources */,
+				8A25AE661C90F8D900B16EF9 /* Frameworks */,
+				8A25AE671C90F8D900B16EF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A25AE6B1C90F8D900B16EF9 /* PBXTargetDependency */,
+			);
+			name = PhunwareHWTests;
+			productName = PhunwareHWTests;
+			productReference = 8A25AE691C90F8D900B16EF9 /* PhunwareHWTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A25AE731C90F8D900B16EF9 /* PhunwareHWUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A25AE831C90F8D900B16EF9 /* Build configuration list for PBXNativeTarget "PhunwareHWUITests" */;
+			buildPhases = (
+				8A25AE701C90F8D900B16EF9 /* Sources */,
+				8A25AE711C90F8D900B16EF9 /* Frameworks */,
+				8A25AE721C90F8D900B16EF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A25AE761C90F8D900B16EF9 /* PBXTargetDependency */,
+			);
+			name = PhunwareHWUITests;
+			productName = PhunwareHWUITests;
+			productReference = 8A25AE741C90F8D900B16EF9 /* PhunwareHWUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A25AE4D1C90F8D900B16EF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Phunware;
+				TargetAttributes = {
+					8A25AE541C90F8D900B16EF9 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					8A25AE681C90F8D900B16EF9 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 8A25AE541C90F8D900B16EF9;
+					};
+					8A25AE731C90F8D900B16EF9 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 8A25AE541C90F8D900B16EF9;
+					};
+				};
+			};
+			buildConfigurationList = 8A25AE501C90F8D900B16EF9 /* Build configuration list for PBXProject "PhunwareHW" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A25AE4C1C90F8D900B16EF9;
+			productRefGroup = 8A25AE561C90F8D900B16EF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A25AE541C90F8D900B16EF9 /* PhunwareHW */,
+				8A25AE681C90F8D900B16EF9 /* PhunwareHWTests */,
+				8A25AE731C90F8D900B16EF9 /* PhunwareHWUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A25AE531C90F8D900B16EF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A25AE631C90F8D900B16EF9 /* LaunchScreen.storyboard in Resources */,
+				8A25F27B1C964EDA00E24D87 /* placeholder.jpg in Resources */,
+				8A25AE601C90F8D900B16EF9 /* Assets.xcassets in Resources */,
+				8A25AE5E1C90F8D900B16EF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A25AE671C90F8D900B16EF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A25AE721C90F8D900B16EF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5FBBDE66771CE5090A9547DB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65009C5B0EA635AC8004489B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B1D290D64E2EEFBE9117C209 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A25AE511C90F8D900B16EF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A25F2711C9609F200E24D87 /* StarWarItem.swift in Sources */,
+				8A25AE591C90F8D900B16EF9 /* AppDelegate.swift in Sources */,
+				8A25F2771C960A0000E24D87 /* ListViewController.swift in Sources */,
+				8A25F2721C9609F200E24D87 /* NetworkClient.swift in Sources */,
+				8A25F2781C960A0000E24D87 /* ListItemCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A25AE651C90F8D900B16EF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A25AE6E1C90F8D900B16EF9 /* PhunwareHWTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A25AE701C90F8D900B16EF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A25AE791C90F8D900B16EF9 /* PhunwareHWUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A25AE6B1C90F8D900B16EF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A25AE541C90F8D900B16EF9 /* PhunwareHW */;
+			targetProxy = 8A25AE6A1C90F8D900B16EF9 /* PBXContainerItemProxy */;
+		};
+		8A25AE761C90F8D900B16EF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A25AE541C90F8D900B16EF9 /* PhunwareHW */;
+			targetProxy = 8A25AE751C90F8D900B16EF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A25AE5C1C90F8D900B16EF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A25AE5D1C90F8D900B16EF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A25AE611C90F8D900B16EF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A25AE621C90F8D900B16EF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A25AE7B1C90F8D900B16EF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A25AE7C1C90F8D900B16EF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A25AE7E1C90F8D900B16EF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1D2BAB0193BC71D9DABE6D1 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhunwareHW/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.iOS.PhunwareHW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A25AE7F1C90F8D900B16EF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D28A7A52E341B2D35BA6E005 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhunwareHW/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.iOS.PhunwareHW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8A25AE811C90F8D900B16EF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhunwareHWTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.iOS.PhunwareHWTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhunwareHW.app/PhunwareHW";
+			};
+			name = Debug;
+		};
+		8A25AE821C90F8D900B16EF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhunwareHWTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.iOS.PhunwareHWTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhunwareHW.app/PhunwareHW";
+			};
+			name = Release;
+		};
+		8A25AE841C90F8D900B16EF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhunwareHWUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.iOS.PhunwareHWUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhunwareHW;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8A25AE851C90F8D900B16EF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhunwareHWUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phunware.iOS.PhunwareHWUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhunwareHW;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A25AE501C90F8D900B16EF9 /* Build configuration list for PBXProject "PhunwareHW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A25AE7B1C90F8D900B16EF9 /* Debug */,
+				8A25AE7C1C90F8D900B16EF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A25AE7D1C90F8D900B16EF9 /* Build configuration list for PBXNativeTarget "PhunwareHW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A25AE7E1C90F8D900B16EF9 /* Debug */,
+				8A25AE7F1C90F8D900B16EF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A25AE801C90F8D900B16EF9 /* Build configuration list for PBXNativeTarget "PhunwareHWTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A25AE811C90F8D900B16EF9 /* Debug */,
+				8A25AE821C90F8D900B16EF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A25AE831C90F8D900B16EF9 /* Build configuration list for PBXNativeTarget "PhunwareHWUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A25AE841C90F8D900B16EF9 /* Debug */,
+				8A25AE851C90F8D900B16EF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A25AE4D1C90F8D900B16EF9 /* Project object */;
+}

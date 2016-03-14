@@ -1,0 +1,9 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "380c014789108208121edfa7111e3226"
+build_time: [511235805, 422364000]
+inputs:
+  "/Users/asatyamurthy/Desktop/PhunwareHW/PhunwareHW/Network/NetworkClient.swift": [511235792, 0]
+  "/Users/asatyamurthy/Desktop/PhunwareHW/PhunwareHW/ViewControllers/ListViewController.swift": [511235800, 0]
+  "/Users/asatyamurthy/Desktop/PhunwareHW/PhunwareHW/AppDelegate.swift": [510885337, 0]
+  "/Users/asatyamurthy/Desktop/PhunwareHW/PhunwareHW/Views/ListItemCell.swift": [511234219, 0]
+  "/Users/asatyamurthy/Desktop/PhunwareHW/PhunwareHW/Model/StarWarItem.swift": [511235770, 0]

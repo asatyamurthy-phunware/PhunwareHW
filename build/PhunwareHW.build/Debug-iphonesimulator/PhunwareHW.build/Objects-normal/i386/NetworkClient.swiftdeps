@@ -1,0 +1,102 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NetworkClient"
+provides-nominal:
+- "C10PhunwareHW13NetworkClient"
+provides-member:
+- ["C10PhunwareHW13NetworkClient", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "Response"
+- "NetworkClient"
+- "StarWarItem"
+- !private "Alamofire"
+- !private "dispatch_get_main_queue"
+- "Array"
+- !private "NSError"
+- !private "StringLiteralType"
+- !private "dispatch_async"
+- !private "Method"
+- "Void"
+depends-member:
+- !private ["PSs9AnyObject", "Alamofire"]
+- !private ["PSs9AnyObject", "Method"]
+- !private ["PSs9AnyObject", "dispatch_async"]
+- !private ["PSs9AnyObject", "dispatch_get_main_queue"]
+- !private ["PSs9AnyObject", "responseArray"]
+- ["PSs9AnyObject", ""]
+- !private ["VSs14COpaquePointer", "GET"]
+- !private ["PSs11CVarArgType", "GET"]
+- !private ["PSs28CustomDebugStringConvertible", "GET"]
+- !private ["PSs28CustomDebugStringConvertible", "responseArray"]
+- !private ["PSs28CustomDebugStringConvertible", "result"]
+- !private ["PSs28CustomDebugStringConvertible", "value"]
+- !private ["PSs23CustomStringConvertible", "responseArray"]
+- !private ["PSs23CustomStringConvertible", "result"]
+- !private ["PSs23CustomStringConvertible", "value"]
+- !private ["PSs9Equatable", "GET"]
+- !private ["PSs8Hashable", "GET"]
+- !private ["SQ", "deinit"]
+- !private ["O9Alamofire6Method", "GET"]
+- !private ["C10PhunwareHW13NetworkClient", "Alamofire"]
+- ["C10PhunwareHW13NetworkClient", "Array"]
+- !private ["C10PhunwareHW13NetworkClient", "Method"]
+- !private ["C10PhunwareHW13NetworkClient", "NSError"]
+- !private ["C10PhunwareHW13NetworkClient", "Response"]
+- ["C10PhunwareHW13NetworkClient", "StarWarItem"]
+- ["C10PhunwareHW13NetworkClient", "Void"]
+- ["C10PhunwareHW13NetworkClient", "deinit"]
+- !private ["C10PhunwareHW13NetworkClient", "dispatch_async"]
+- !private ["C10PhunwareHW13NetworkClient", "dispatch_get_main_queue"]
+- ["C10PhunwareHW13NetworkClient", "getFeedItems"]
+- ["C10PhunwareHW13NetworkClient", "init"]
+- !private ["PSs21NilLiteralConvertible", "GET"]
+- !private ["PSs16RawRepresentable", "GET"]
+- !private ["C9Alamofire7Request", "responseArray"]
+- !private ["V9Alamofire8Response", "result"]
+- !private ["O9Alamofire6Result", "value"]
+- !private ["C10PhunwareHW11StarWarItem", "deinit"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "VSs14COpaquePointer"
+- !private "PSs11CVarArgType"
+- !private "PSs28CustomDebugStringConvertible"
+- !private "PSs23CustomStringConvertible"
+- !private "PSs9Equatable"
+- !private "PSs8Hashable"
+- !private "SQ"
+- !private "O9Alamofire6Method"
+- "C10PhunwareHW13NetworkClient"
+- !private "PSs21NilLiteralConvertible"
+- !private "PSs16RawRepresentable"
+- !private "C9Alamofire7Request"
+- !private "V9Alamofire8Response"
+- !private "O9Alamofire6Result"
+- !private "C10PhunwareHW11StarWarItem"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/i386.swiftmodule"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/i386.swiftmodule"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/Alamofire.framework/Modules/Alamofire.swiftmodule/i386.swiftmodule"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/Alamofire.framework/Modules/module.modulemap"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireImage.framework/Headers/AlamofireImage-umbrella.h"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireImage.framework/Modules/module.modulemap"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireObjectMapper.framework/Modules/AlamofireObjectMapper.swiftmodule/i386.swiftmodule"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-Swift.h"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-umbrella.h"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireObjectMapper.framework/Modules/module.modulemap"
+interface-hash: "c8fcdcfb660a74d561127284e225a719"

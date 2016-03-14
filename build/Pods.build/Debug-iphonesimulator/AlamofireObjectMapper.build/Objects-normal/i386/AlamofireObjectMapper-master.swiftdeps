@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "d4d8e274ce817a355a153dda18ff7340"
+build_time: [511235755, 743042000]
+inputs:
+  "/Users/asatyamurthy/Desktop/PhunwareHW/Pods/AlamofireObjectMapper/AlamofireObjectMapper/AlamofireObjectMapper.swift": [511206713, 0]

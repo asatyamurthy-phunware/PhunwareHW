@@ -1,0 +1,223 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ListItemCell"
+provides-nominal:
+- "C10PhunwareHW12ListItemCell"
+provides-member:
+- ["C10PhunwareHW12ListItemCell", ""]
+provides-dynamic-lookup:
+- "itemDescription"
+- "location"
+- "backgroundImage"
+- "date"
+- "title"
+depends-top-level:
+- "UILabel"
+- "UIImageView"
+- "ListItemCell"
+- "UICollectionViewCell"
+depends-member:
+- ["PSs9AnyObject", "backgroundImage"]
+- ["PSs9AnyObject", "date"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "itemDescription"]
+- ["PSs9AnyObject", "location"]
+- ["PSs9AnyObject", "title"]
+- ["PSs9AnyObject", ""]
+- ["PSs11CVarArgType", "backgroundImage"]
+- ["PSs11CVarArgType", "date"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "itemDescription"]
+- ["PSs11CVarArgType", "location"]
+- ["PSs11CVarArgType", "title"]
+- ["PSs11CVarArgType", ""]
+- ["PSs23CustomStringConvertible", "backgroundImage"]
+- ["PSs23CustomStringConvertible", "date"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "itemDescription"]
+- ["PSs23CustomStringConvertible", "location"]
+- ["PSs23CustomStringConvertible", "title"]
+- ["PSs23CustomStringConvertible", ""]
+- ["PSs9Equatable", "backgroundImage"]
+- ["PSs9Equatable", "date"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "itemDescription"]
+- ["PSs9Equatable", "location"]
+- ["PSs9Equatable", "title"]
+- ["PSs9Equatable", ""]
+- ["PSs8Hashable", "backgroundImage"]
+- ["PSs8Hashable", "date"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "itemDescription"]
+- ["PSs8Hashable", "location"]
+- ["PSs8Hashable", "title"]
+- ["PSs8Hashable", ""]
+- ["C10PhunwareHW12ListItemCell", "UIImageView"]
+- ["C10PhunwareHW12ListItemCell", "UILabel"]
+- ["C10PhunwareHW12ListItemCell", "backgroundImage"]
+- ["C10PhunwareHW12ListItemCell", "date"]
+- ["C10PhunwareHW12ListItemCell", "deinit"]
+- ["C10PhunwareHW12ListItemCell", "init"]
+- ["C10PhunwareHW12ListItemCell", "itemDescription"]
+- ["C10PhunwareHW12ListItemCell", "location"]
+- ["C10PhunwareHW12ListItemCell", "title"]
+- ["PSo8NSCoding", "backgroundImage"]
+- ["PSo8NSCoding", "date"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "itemDescription"]
+- ["PSo8NSCoding", "location"]
+- ["PSo8NSCoding", "title"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "backgroundImage"]
+- ["CSo8NSObject", "date"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "itemDescription"]
+- ["CSo8NSObject", "location"]
+- ["CSo8NSObject", "title"]
+- ["PSo16NSObjectProtocol", "backgroundImage"]
+- ["PSo16NSObjectProtocol", "date"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "itemDescription"]
+- ["PSo16NSObjectProtocol", "location"]
+- ["PSo16NSObjectProtocol", "title"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo29UIAccessibilityIdentification", "backgroundImage"]
+- ["PSo29UIAccessibilityIdentification", "date"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "itemDescription"]
+- ["PSo29UIAccessibilityIdentification", "location"]
+- ["PSo29UIAccessibilityIdentification", "title"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- ["PSo12UIAppearance", "backgroundImage"]
+- ["PSo12UIAppearance", "date"]
+- ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "itemDescription"]
+- ["PSo12UIAppearance", "location"]
+- ["PSo12UIAppearance", "title"]
+- ["PSo12UIAppearance", ""]
+- ["PSo21UIAppearanceContainer", "backgroundImage"]
+- ["PSo21UIAppearanceContainer", "date"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "itemDescription"]
+- ["PSo21UIAppearanceContainer", "location"]
+- ["PSo21UIAppearanceContainer", "title"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["CSo24UICollectionReusableView", "UIImageView"]
+- ["CSo24UICollectionReusableView", "UILabel"]
+- ["CSo24UICollectionReusableView", "backgroundImage"]
+- ["CSo24UICollectionReusableView", "date"]
+- ["CSo24UICollectionReusableView", "init"]
+- ["CSo24UICollectionReusableView", "itemDescription"]
+- ["CSo24UICollectionReusableView", "location"]
+- ["CSo24UICollectionReusableView", "title"]
+- ["CSo20UICollectionViewCell", "UIImageView"]
+- ["CSo20UICollectionViewCell", "UILabel"]
+- ["CSo20UICollectionViewCell", "backgroundImage"]
+- ["CSo20UICollectionViewCell", "date"]
+- ["CSo20UICollectionViewCell", "init"]
+- ["CSo20UICollectionViewCell", "itemDescription"]
+- ["CSo20UICollectionViewCell", "location"]
+- ["CSo20UICollectionViewCell", "title"]
+- ["CSo20UICollectionViewCell", ""]
+- ["PSo17UICoordinateSpace", "backgroundImage"]
+- ["PSo17UICoordinateSpace", "date"]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "itemDescription"]
+- ["PSo17UICoordinateSpace", "location"]
+- ["PSo17UICoordinateSpace", "title"]
+- ["PSo17UICoordinateSpace", ""]
+- ["PSo13UIDynamicItem", "backgroundImage"]
+- ["PSo13UIDynamicItem", "date"]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "itemDescription"]
+- ["PSo13UIDynamicItem", "location"]
+- ["PSo13UIDynamicItem", "title"]
+- ["PSo13UIDynamicItem", ""]
+- ["PSo18UIFocusEnvironment", "backgroundImage"]
+- ["PSo18UIFocusEnvironment", "date"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "itemDescription"]
+- ["PSo18UIFocusEnvironment", "location"]
+- ["PSo18UIFocusEnvironment", "title"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "backgroundImage"]
+- ["CSo11UIResponder", "date"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "itemDescription"]
+- ["CSo11UIResponder", "location"]
+- ["CSo11UIResponder", "title"]
+- ["PSo18UITraitEnvironment", "backgroundImage"]
+- ["PSo18UITraitEnvironment", "date"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "itemDescription"]
+- ["PSo18UITraitEnvironment", "location"]
+- ["PSo18UITraitEnvironment", "title"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "UIImageView"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "backgroundImage"]
+- ["CSo6UIView", "date"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "itemDescription"]
+- ["CSo6UIView", "location"]
+- ["CSo6UIView", "title"]
+- ["PSs12_Reflectable", "backgroundImage"]
+- ["PSs12_Reflectable", "date"]
+- ["PSs12_Reflectable", "init"]
+- ["PSs12_Reflectable", "itemDescription"]
+- ["PSs12_Reflectable", "location"]
+- ["PSs12_Reflectable", "title"]
+- ["PSs12_Reflectable", ""]
+depends-nominal:
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "C10PhunwareHW12ListItemCell"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "CSo24UICollectionReusableView"
+- "CSo20UICollectionViewCell"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/i386.swiftmodule"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/i386.swiftmodule"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/Alamofire.framework/Modules/Alamofire.swiftmodule/i386.swiftmodule"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/Alamofire.framework/Modules/module.modulemap"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireImage.framework/Headers/AlamofireImage-umbrella.h"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireImage.framework/Modules/module.modulemap"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireObjectMapper.framework/Modules/AlamofireObjectMapper.swiftmodule/i386.swiftmodule"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-Swift.h"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-umbrella.h"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireObjectMapper.framework/Modules/module.modulemap"
+interface-hash: "d1d51af812b894d25c72edc80eece144"

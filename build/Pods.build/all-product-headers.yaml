@@ -1,0 +1,141 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/Alamofire.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Alamofire-Swift.h",
+          'external-contents': "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Alamofire-umbrella.h",
+          'external-contents': "/Users/asatyamurthy/Desktop/PhunwareHW/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/Alamofire.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/asatyamurthy/Desktop/PhunwareHW/build/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireImage.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AlamofireImage-Swift.h",
+          'external-contents': "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AlamofireImage-umbrella.h",
+          'external-contents': "/Users/asatyamurthy/Desktop/PhunwareHW/Pods/Target Support Files/AlamofireImage/AlamofireImage-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireImage.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/asatyamurthy/Desktop/PhunwareHW/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireObjectMapper.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AlamofireObjectMapper-Swift.h",
+          'external-contents': "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AlamofireObjectMapper-umbrella.h",
+          'external-contents': "/Users/asatyamurthy/Desktop/PhunwareHW/Pods/Target Support Files/AlamofireObjectMapper/AlamofireObjectMapper-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireObjectMapper.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/asatyamurthy/Desktop/PhunwareHW/build/Pods.build/Debug-iphonesimulator/AlamofireObjectMapper.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/ObjectMapper.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "ObjectMapper-Swift.h",
+          'external-contents': "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "ObjectMapper-umbrella.h",
+          'external-contents': "/Users/asatyamurthy/Desktop/PhunwareHW/Pods/Target Support Files/ObjectMapper/ObjectMapper-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/ObjectMapper.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/asatyamurthy/Desktop/PhunwareHW/build/Pods.build/Debug-iphonesimulator/ObjectMapper.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/Pods.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-Swift.h",
+          'external-contents': "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/Pods.framework/Headers/Pods-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods-umbrella.h",
+          'external-contents': "/Users/asatyamurthy/Desktop/PhunwareHW/Pods/Target Support Files/Pods/Pods-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/Pods.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/asatyamurthy/Desktop/PhunwareHW/build/Pods.build/Debug-iphonesimulator/Pods.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
