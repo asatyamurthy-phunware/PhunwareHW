@@ -10,7 +10,7 @@ import UIKit
 import AlamofireImage
 
 class ListViewController: UIViewController, UICollectionViewDataSource , UICollectionViewDelegateFlowLayout{
-@IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var collectionView: UICollectionView!
     var items = [StarWarItem]()
     
     override func viewDidLoad() {
@@ -89,6 +89,14 @@ class ListViewController: UIViewController, UICollectionViewDataSource , UIColle
     
     override func willAnimateRotationToInterfaceOrientation(toInterfaceOrientation: UIInterfaceOrientation, duration: NSTimeInterval) {
         self.collectionView.collectionViewLayout.invalidateLayout()
+    }
+    
+    //MARK: Prepare for segue
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let cellTapped:ListItemCell = sender as! ListItemCell;
+        let destinationViewController:DetailViewController = segue.destinationViewController as! DetailViewController;
+        destinationViewController.starWarItem = self.items[self.collectionView.indexPathForCell(cellTapped)!.row];
     }
     
 

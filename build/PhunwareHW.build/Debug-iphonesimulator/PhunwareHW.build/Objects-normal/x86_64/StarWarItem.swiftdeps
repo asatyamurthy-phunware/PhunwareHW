@@ -1,0 +1,86 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "StarWarItem"
+provides-nominal:
+- "C10PhunwareHW11StarWarItem"
+provides-member:
+- ["C10PhunwareHW11StarWarItem", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Map"
+- "String"
+- !private "StringLiteralType"
+- "StarWarItem"
+- !private "<-"
+- "Mappable"
+depends-member:
+- !private ["PSs9AnyObject", "date"]
+- !private ["PSs9AnyObject", "image"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "itemDescription"]
+- !private ["PSs9AnyObject", "locationLine1"]
+- !private ["PSs9AnyObject", "locationLine2"]
+- ["PSs9AnyObject", "mapping"]
+- !private ["PSs9AnyObject", "phone"]
+- !private ["PSs9AnyObject", "subscript"]
+- !private ["PSs9AnyObject", "title"]
+- ["PSs9AnyObject", ""]
+- !private ["C12ObjectMapper3Map", "subscript"]
+- !private ["P12ObjectMapper8Mappable", "date"]
+- !private ["P12ObjectMapper8Mappable", "image"]
+- ["P12ObjectMapper8Mappable", "init"]
+- !private ["P12ObjectMapper8Mappable", "itemDescription"]
+- !private ["P12ObjectMapper8Mappable", "locationLine1"]
+- !private ["P12ObjectMapper8Mappable", "locationLine2"]
+- ["P12ObjectMapper8Mappable", "mapping"]
+- !private ["P12ObjectMapper8Mappable", "phone"]
+- !private ["P12ObjectMapper8Mappable", "title"]
+- ["P12ObjectMapper8Mappable", ""]
+- !private ["Sq", "deinit"]
+- ["C10PhunwareHW11StarWarItem", "Map"]
+- ["C10PhunwareHW11StarWarItem", "String"]
+- ["C10PhunwareHW11StarWarItem", "date"]
+- ["C10PhunwareHW11StarWarItem", "deinit"]
+- ["C10PhunwareHW11StarWarItem", "image"]
+- ["C10PhunwareHW11StarWarItem", "init"]
+- ["C10PhunwareHW11StarWarItem", "itemDescription"]
+- ["C10PhunwareHW11StarWarItem", "locationLine1"]
+- ["C10PhunwareHW11StarWarItem", "locationLine2"]
+- ["C10PhunwareHW11StarWarItem", "mapping"]
+- ["C10PhunwareHW11StarWarItem", "phone"]
+- ["C10PhunwareHW11StarWarItem", "title"]
+- !private ["SS", "deinit"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "C12ObjectMapper3Map"
+- "P12ObjectMapper8Mappable"
+- !private "Sq"
+- "C10PhunwareHW11StarWarItem"
+- !private "SS"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/x86_64.swiftmodule"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/Alamofire.framework/Modules/module.modulemap"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireImage.framework/Headers/AlamofireImage-umbrella.h"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireImage.framework/Modules/module.modulemap"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireObjectMapper.framework/Modules/AlamofireObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-Swift.h"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-umbrella.h"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireObjectMapper.framework/Modules/module.modulemap"
+interface-hash: "2d41f0ba2e3b332524f8450d715dfe74"

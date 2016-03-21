@@ -7,17 +7,17 @@ provides-member:
 - ["C10PhunwareHW13NetworkClient", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "Response"
-- "NetworkClient"
-- "StarWarItem"
-- !private "Alamofire"
-- !private "dispatch_get_main_queue"
 - "Array"
-- !private "NSError"
-- !private "StringLiteralType"
+- "NetworkClient"
 - !private "dispatch_async"
 - !private "Method"
+- "StarWarItem"
+- !private "StringLiteralType"
+- !private "Response"
+- !private "NSError"
 - "Void"
+- !private "Alamofire"
+- !private "dispatch_get_main_queue"
 depends-member:
 - !private ["PSs9AnyObject", "Alamofire"]
 - !private ["PSs9AnyObject", "Method"]

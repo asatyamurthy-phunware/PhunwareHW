@@ -15,6 +15,7 @@ class ListItemCell: UICollectionViewCell {
     @IBOutlet weak var location: UILabel!
     @IBOutlet weak var date: UILabel!
     @IBOutlet weak var title: UILabel!
+    
 }
 
 

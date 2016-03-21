@@ -17,7 +17,7 @@
 		8A25F2721C9609F200E24D87 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A25F2701C9609F200E24D87 /* NetworkClient.swift */; };
 		8A25F2771C960A0000E24D87 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A25F2741C960A0000E24D87 /* ListViewController.swift */; };
 		8A25F2781C960A0000E24D87 /* ListItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A25F2761C960A0000E24D87 /* ListItemCell.swift */; };
-		8A25F27B1C964EDA00E24D87 /* placeholder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A25F27A1C964EDA00E24D87 /* placeholder.jpg */; };
+		8A3B44E81C990C9000A03D3D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3B44E71C990C9000A03D3D /* DetailViewController.swift */; };
 		C6349D9E50714596476D0CAB /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7851E8C35D42D83A8E7194 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,7 +55,7 @@
 		8A25F2701C9609F200E24D87 /* NetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 		8A25F2741C960A0000E24D87 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		8A25F2761C960A0000E24D87 /* ListItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItemCell.swift; sourceTree = "<group>"; };
-		8A25F27A1C964EDA00E24D87 /* placeholder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholder.jpg; sourceTree = "<group>"; };
+		8A3B44E71C990C9000A03D3D /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		D28A7A52E341B2D35BA6E005 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		F1D2BAB0193BC71D9DABE6D1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		FB7851E8C35D42D83A8E7194 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,7 +112,6 @@
 		8A25AE571C90F8D900B16EF9 /* PhunwareHW */ = {
 			isa = PBXGroup;
 			children = (
-				8A25F2791C964ECE00E24D87 /* Images */,
 				8A25F2731C960A0000E24D87 /* ViewControllers */,
 				8A25F2751C960A0000E24D87 /* Views */,
 				8A25F26D1C9609F200E24D87 /* Model */,
@@ -164,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				8A25F2741C960A0000E24D87 /* ListViewController.swift */,
+				8A3B44E71C990C9000A03D3D /* DetailViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -174,14 +174,6 @@
 				8A25F2761C960A0000E24D87 /* ListItemCell.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		8A25F2791C964ECE00E24D87 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				8A25F27A1C964EDA00E24D87 /* placeholder.jpg */,
-			);
-			path = Images;
 			sourceTree = "<group>";
 		};
 		9ECE4E022D32125E5A734DB8 /* Frameworks */ = {
@@ -309,7 +301,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A25AE631C90F8D900B16EF9 /* LaunchScreen.storyboard in Resources */,
-				8A25F27B1C964EDA00E24D87 /* placeholder.jpg in Resources */,
 				8A25AE601C90F8D900B16EF9 /* Assets.xcassets in Resources */,
 				8A25AE5E1C90F8D900B16EF9 /* Main.storyboard in Resources */,
 			);
@@ -387,6 +378,7 @@
 				8A25F2711C9609F200E24D87 /* StarWarItem.swift in Sources */,
 				8A25AE591C90F8D900B16EF9 /* AppDelegate.swift in Sources */,
 				8A25F2771C960A0000E24D87 /* ListViewController.swift in Sources */,
+				8A3B44E81C990C9000A03D3D /* DetailViewController.swift in Sources */,
 				8A25F2721C9609F200E24D87 /* NetworkClient.swift in Sources */,
 				8A25F2781C960A0000E24D87 /* ListItemCell.swift in Sources */,
 			);
@@ -529,6 +521,7 @@
 			baseConfigurationReference = F1D2BAB0193BC71D9DABE6D1 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = PhunwareHW/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -543,6 +536,7 @@
 			baseConfigurationReference = D28A7A52E341B2D35BA6E005 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = PhunwareHW/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

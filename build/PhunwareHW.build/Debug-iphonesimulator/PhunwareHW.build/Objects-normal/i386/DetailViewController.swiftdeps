@@ -1,0 +1,188 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DetailViewController"
+provides-nominal:
+- "C10PhunwareHW20DetailViewController"
+provides-member:
+- ["C10PhunwareHW20DetailViewController", ""]
+provides-dynamic-lookup:
+- "itemLocation"
+- "date"
+- "itemDescription"
+- "itemTitle"
+depends-top-level:
+- "StarWarItem"
+- "UIViewController"
+- "UILabel"
+- "DetailViewController"
+depends-member:
+- ["PSs9AnyObject", "date"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "itemDescription"]
+- ["PSs9AnyObject", "itemLocation"]
+- ["PSs9AnyObject", "itemTitle"]
+- ["PSs9AnyObject", "starWarItem"]
+- ["PSs9AnyObject", ""]
+- ["PSs11CVarArgType", "date"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "itemDescription"]
+- ["PSs11CVarArgType", "itemLocation"]
+- ["PSs11CVarArgType", "itemTitle"]
+- ["PSs11CVarArgType", "starWarItem"]
+- ["PSs11CVarArgType", ""]
+- ["PSs23CustomStringConvertible", "date"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "itemDescription"]
+- ["PSs23CustomStringConvertible", "itemLocation"]
+- ["PSs23CustomStringConvertible", "itemTitle"]
+- ["PSs23CustomStringConvertible", "starWarItem"]
+- ["PSs23CustomStringConvertible", ""]
+- ["C10PhunwareHW20DetailViewController", "StarWarItem"]
+- ["C10PhunwareHW20DetailViewController", "UILabel"]
+- ["C10PhunwareHW20DetailViewController", "date"]
+- ["C10PhunwareHW20DetailViewController", "deinit"]
+- ["C10PhunwareHW20DetailViewController", "init"]
+- ["C10PhunwareHW20DetailViewController", "itemDescription"]
+- ["C10PhunwareHW20DetailViewController", "itemLocation"]
+- ["C10PhunwareHW20DetailViewController", "itemTitle"]
+- ["C10PhunwareHW20DetailViewController", "starWarItem"]
+- ["PSs9Equatable", "date"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "itemDescription"]
+- ["PSs9Equatable", "itemLocation"]
+- ["PSs9Equatable", "itemTitle"]
+- ["PSs9Equatable", "starWarItem"]
+- ["PSs9Equatable", ""]
+- ["PSs8Hashable", "date"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "itemDescription"]
+- ["PSs8Hashable", "itemLocation"]
+- ["PSs8Hashable", "itemTitle"]
+- ["PSs8Hashable", "starWarItem"]
+- ["PSs8Hashable", ""]
+- ["PSo8NSCoding", "date"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "itemDescription"]
+- ["PSo8NSCoding", "itemLocation"]
+- ["PSo8NSCoding", "itemTitle"]
+- ["PSo8NSCoding", "starWarItem"]
+- ["PSo8NSCoding", ""]
+- ["PSo26NSExtensionRequestHandling", "date"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "itemDescription"]
+- ["PSo26NSExtensionRequestHandling", "itemLocation"]
+- ["PSo26NSExtensionRequestHandling", "itemTitle"]
+- ["PSo26NSExtensionRequestHandling", "starWarItem"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "StarWarItem"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "date"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "itemDescription"]
+- ["CSo8NSObject", "itemLocation"]
+- ["CSo8NSObject", "itemTitle"]
+- ["CSo8NSObject", "starWarItem"]
+- ["PSo16NSObjectProtocol", "date"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "itemDescription"]
+- ["PSo16NSObjectProtocol", "itemLocation"]
+- ["PSo16NSObjectProtocol", "itemTitle"]
+- ["PSo16NSObjectProtocol", "starWarItem"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo21UIAppearanceContainer", "date"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "itemDescription"]
+- ["PSo21UIAppearanceContainer", "itemLocation"]
+- ["PSo21UIAppearanceContainer", "itemTitle"]
+- ["PSo21UIAppearanceContainer", "starWarItem"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo18UIContentContainer", "date"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "itemDescription"]
+- ["PSo18UIContentContainer", "itemLocation"]
+- ["PSo18UIContentContainer", "itemTitle"]
+- ["PSo18UIContentContainer", "starWarItem"]
+- ["PSo18UIContentContainer", ""]
+- ["PSo18UIFocusEnvironment", "date"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "itemDescription"]
+- ["PSo18UIFocusEnvironment", "itemLocation"]
+- ["PSo18UIFocusEnvironment", "itemTitle"]
+- ["PSo18UIFocusEnvironment", "starWarItem"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["CSo11UIResponder", "StarWarItem"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "date"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "itemDescription"]
+- ["CSo11UIResponder", "itemLocation"]
+- ["CSo11UIResponder", "itemTitle"]
+- ["CSo11UIResponder", "starWarItem"]
+- ["PSo16UIStateRestoring", "date"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "itemDescription"]
+- ["PSo16UIStateRestoring", "itemLocation"]
+- ["PSo16UIStateRestoring", "itemTitle"]
+- ["PSo16UIStateRestoring", "starWarItem"]
+- ["PSo16UIStateRestoring", ""]
+- ["PSo18UITraitEnvironment", "date"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "itemDescription"]
+- ["PSo18UITraitEnvironment", "itemLocation"]
+- ["PSo18UITraitEnvironment", "itemTitle"]
+- ["PSo18UITraitEnvironment", "starWarItem"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo16UIViewController", "StarWarItem"]
+- ["CSo16UIViewController", "UILabel"]
+- ["CSo16UIViewController", "date"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "itemDescription"]
+- ["CSo16UIViewController", "itemLocation"]
+- ["CSo16UIViewController", "itemTitle"]
+- ["CSo16UIViewController", "starWarItem"]
+- ["CSo16UIViewController", ""]
+depends-nominal:
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "C10PhunwareHW20DetailViewController"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/i386.swiftmodule"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/i386.swiftmodule"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/Alamofire.framework/Modules/Alamofire.swiftmodule/i386.swiftmodule"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/Alamofire.framework/Modules/module.modulemap"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireImage.framework/Headers/AlamofireImage-umbrella.h"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireImage.framework/Modules/module.modulemap"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireObjectMapper.framework/Modules/AlamofireObjectMapper.swiftmodule/i386.swiftmodule"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-Swift.h"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-umbrella.h"
+- "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireObjectMapper.framework/Modules/module.modulemap"
+interface-hash: "91aa35dd62e5b3e0128917549a41dc07"
