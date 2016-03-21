@@ -13,19 +13,19 @@ provides-member:
 - ["C9Alamofire7Request", "responseArray"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Void"
-- !private "Error"
-- "BooleanLiteralType"
-- !private "Mapper"
 - "Request"
+- "BooleanLiteralType"
 - "String"
-- "ResponseSerializer"
-- "NSError"
-- "StringLiteralType"
+- "Void"
 - !private "AnyObject"
 - "dispatch_queue_t"
+- "NSError"
 - "Response"
+- "StringLiteralType"
+- !private "Error"
 - !private "Mappable"
+- "ResponseSerializer"
+- !private "Mapper"
 - !private "=="
 depends-member:
 - !private ["PSs9AnyObject", "Error"]

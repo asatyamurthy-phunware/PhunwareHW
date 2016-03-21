@@ -10,6 +10,7 @@
         <scene sceneID="bEt-oz-5En">
             <objects>
                 <navigationController id="XxJ-xg-uyC" sceneMemberID="viewController">
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="GAa-t5-Oyu">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -132,6 +133,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="aRg-rs-Csf"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="collectionView" destination="Jcv-ms-uDZ" id="CWh-k2-bfu"/>
                     </connections>
@@ -165,7 +167,7 @@
                                                 <rect key="frame" x="0.0" y="100" width="320" height="650"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BMP-Tg-7Ln">
-                                                        <rect key="frame" x="20" y="64" width="280" height="14"/>
+                                                        <rect key="frame" x="20" y="63" width="280" height="15"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -177,7 +179,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qO8-ft-n4f">
-                                                        <rect key="frame" x="20" y="35" width="280" height="29"/>
+                                                        <rect key="frame" x="20" y="34" width="280" height="29"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -237,13 +239,16 @@
                             <constraint firstItem="Ad6-Nt-nfK" firstAttribute="top" secondItem="6rq-51-0av" secondAttribute="bottom" id="fod-5a-0Vb"/>
                         </constraints>
                     </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="date" destination="eFL-Pz-REp" id="ZZK-Wj-5p5"/>
                         <outlet property="headerImage" destination="Wyc-6K-nBo" id="5hf-Mo-bbz"/>
+                        <outlet property="heightConstraint" destination="qwU-7C-hgd" id="A4L-aT-6uf"/>
                         <outlet property="itemDescription" destination="KrW-7C-nRs" id="W6s-Zx-o0q"/>
                         <outlet property="itemLocation" destination="BMP-Tg-7Ln" id="Wdk-oA-aIZ"/>
                         <outlet property="itemTitle" destination="qO8-ft-n4f" id="nxa-vY-lWV"/>
+                        <outlet property="topSpace" destination="DK6-2o-r34" id="cUP-BQ-MqO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="haH-cp-lcB" userLabel="First Responder" sceneMemberID="firstResponder"/>

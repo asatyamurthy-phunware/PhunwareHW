@@ -6,16 +6,16 @@ provides-nominal:
 provides-member:
 - ["C10PhunwareHW12ListItemCell", ""]
 provides-dynamic-lookup:
-- "date"
 - "itemDescription"
-- "location"
+- "date"
 - "backgroundImage"
 - "title"
+- "location"
 depends-top-level:
 - "UICollectionViewCell"
+- "ListItemCell"
 - "UIImageView"
 - "UILabel"
-- "ListItemCell"
 depends-member:
 - ["PSs9AnyObject", "backgroundImage"]
 - ["PSs9AnyObject", "date"]

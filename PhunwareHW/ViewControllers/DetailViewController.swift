@@ -15,6 +15,8 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var date: UILabel!
     @IBOutlet weak var headerImage: UIImageView!
     
+    @IBOutlet weak var heightConstraint: NSLayoutConstraint!
+    @IBOutlet weak var topSpace: NSLayoutConstraint!
     var starWarItem:StarWarItem?
     
     override func viewDidLoad() {
@@ -42,5 +44,10 @@ class DetailViewController: UIViewController {
         let URL = NSURL(string: self.starWarItem!.image!)!
         let placeholderImage = UIImage(named: "placeholder.jpg")!
         self.headerImage.af_setImageWithURL(URL,placeholderImage: placeholderImage,filter: nil,imageTransition: .CrossDissolve(0.2))
+        
+        if UIDevice.currentDevice().userInterfaceIdiom == .Pad {
+           self.topSpace.constant = 300
+            self.heightConstraint.constant = 800
+        }
     }
 }

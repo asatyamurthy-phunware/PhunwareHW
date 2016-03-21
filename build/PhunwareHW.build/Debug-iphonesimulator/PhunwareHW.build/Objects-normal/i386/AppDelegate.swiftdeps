@@ -6,23 +6,23 @@ provides-nominal:
 provides-member:
 - ["C10PhunwareHW11AppDelegate", ""]
 provides-dynamic-lookup:
-- "applicationDidBecomeActive"
-- "window"
-- "applicationWillTerminate"
-- "applicationWillResignActive"
-- "application"
 - "applicationDidEnterBackground"
 - "applicationWillEnterForeground"
+- "application"
+- "applicationWillTerminate"
+- "window"
+- "applicationWillResignActive"
+- "applicationDidBecomeActive"
 depends-top-level:
-- "NSObject"
-- "UIApplicationDelegate"
-- "UIApplication"
-- "AppDelegate"
-- "UIResponder"
 - "AnyObject"
-- !private "BooleanLiteralType"
-- "UIWindow"
+- "NSObject"
 - "Bool"
+- "UIApplication"
+- "UIWindow"
+- "AppDelegate"
+- !private "BooleanLiteralType"
+- "UIApplicationDelegate"
+- "UIResponder"
 depends-member:
 - ["PSs9AnyObject", "application"]
 - ["PSs9AnyObject", "applicationDidBecomeActive"]

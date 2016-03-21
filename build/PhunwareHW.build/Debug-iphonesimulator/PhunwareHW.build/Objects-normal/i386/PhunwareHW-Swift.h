@@ -110,6 +110,8 @@ SWIFT_CLASS("_TtC10PhunwareHW11AppDelegate")
 @end
 
 @class UILabel;
+@class UIImageView;
+@class NSLayoutConstraint;
 @class NSBundle;
 @class NSCoder;
 
@@ -119,11 +121,14 @@ SWIFT_CLASS("_TtC10PhunwareHW20DetailViewController")
 @property (nonatomic, weak) IBOutlet UILabel * __null_unspecified itemLocation;
 @property (nonatomic, weak) IBOutlet UILabel * __null_unspecified itemTitle;
 @property (nonatomic, weak) IBOutlet UILabel * __null_unspecified date;
+@property (nonatomic, weak) IBOutlet UIImageView * __null_unspecified headerImage;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * __null_unspecified heightConstraint;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * __null_unspecified topSpace;
+- (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIImageView;
 
 SWIFT_CLASS("_TtC10PhunwareHW12ListItemCell")
 @interface ListItemCell : UICollectionViewCell
@@ -150,7 +155,6 @@ SWIFT_CLASS("_TtC10PhunwareHW18ListViewController")
 - (NSInteger)collectionView:(UICollectionView * __nonnull)collectionView numberOfItemsInSection:(NSInteger)section;
 - (UICollectionViewCell * __nonnull)collectionView:(UICollectionView * __nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * __nonnull)indexPath;
 - (CGSize)collectionView:(UICollectionView * __nonnull)collectionView layout:(UICollectionViewLayout * __nonnull)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath * __nonnull)indexPath;
-- (void)collectionView:(UICollectionView * __nonnull)collectionView didSelectItemAtIndexPath:(NSIndexPath * __nonnull)indexPath;
 - (void)willAnimateRotationToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration;
 - (void)prepareForSegue:(UIStoryboardSegue * __nonnull)segue sender:(id __nullable)sender;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;

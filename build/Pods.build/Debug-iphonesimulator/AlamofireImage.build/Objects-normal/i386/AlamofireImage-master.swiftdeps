@@ -1,12 +1,12 @@
 version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
 options: "0ef0049736a037cae79c74f03e676f38"
-build_time: [511235756, 107799000]
+build_time: [511840687, 568315000]
 inputs:
-  "/Users/asatyamurthy/Desktop/PhunwareHW/Pods/AlamofireImage/Source/UIImageView+AlamofireImage.swift": [511229085, 0]
   "/Users/asatyamurthy/Desktop/PhunwareHW/Pods/AlamofireImage/Source/UIImage+AlamofireImage.swift": [511229085, 0]
-  "/Users/asatyamurthy/Desktop/PhunwareHW/Pods/AlamofireImage/Source/ImageDownloader.swift": [511229085, 0]
-  "/Users/asatyamurthy/Desktop/PhunwareHW/Pods/AlamofireImage/Source/Image.swift": [511229085, 0]
-  "/Users/asatyamurthy/Desktop/PhunwareHW/Pods/AlamofireImage/Source/ImageFilter.swift": [511229085, 0]
-  "/Users/asatyamurthy/Desktop/PhunwareHW/Pods/AlamofireImage/Source/UIButton+AlamofireImage.swift": [511229085, 0]
-  "/Users/asatyamurthy/Desktop/PhunwareHW/Pods/AlamofireImage/Source/Request+AlamofireImage.swift": [511229085, 0]
   "/Users/asatyamurthy/Desktop/PhunwareHW/Pods/AlamofireImage/Source/ImageCache.swift": [511229085, 0]
+  "/Users/asatyamurthy/Desktop/PhunwareHW/Pods/AlamofireImage/Source/Request+AlamofireImage.swift": [511229085, 0]
+  "/Users/asatyamurthy/Desktop/PhunwareHW/Pods/AlamofireImage/Source/ImageFilter.swift": [511229085, 0]
+  "/Users/asatyamurthy/Desktop/PhunwareHW/Pods/AlamofireImage/Source/Image.swift": [511229085, 0]
+  "/Users/asatyamurthy/Desktop/PhunwareHW/Pods/AlamofireImage/Source/UIImageView+AlamofireImage.swift": [511229085, 0]
+  "/Users/asatyamurthy/Desktop/PhunwareHW/Pods/AlamofireImage/Source/UIButton+AlamofireImage.swift": [511229085, 0]
+  "/Users/asatyamurthy/Desktop/PhunwareHW/Pods/AlamofireImage/Source/ImageDownloader.swift": [511229085, 0]

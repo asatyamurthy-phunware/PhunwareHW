@@ -6,159 +6,528 @@ provides-nominal:
 provides-member:
 - ["C10PhunwareHW20DetailViewController", ""]
 provides-dynamic-lookup:
-- "itemLocation"
-- "date"
+- "headerImage"
 - "itemDescription"
 - "itemTitle"
+- "heightConstraint"
+- "topSpace"
+- "viewDidLoad"
+- "itemLocation"
+- "date"
 depends-top-level:
+- !private "=="
+- !private "UIDevice"
+- !private "!="
+- !private "UIImage"
+- !private "&&"
 - "StarWarItem"
+- !private "StringLiteralType"
+- "NSLayoutConstraint"
+- !private "+"
+- !private "NSURL"
+- "DetailViewController"
 - "UIViewController"
 - "UILabel"
-- "DetailViewController"
+- "UIImageView"
+- !private "NSDateFormatter"
 depends-member:
+- !private ["PSs9AnyObject", "NSDateFormatter"]
+- !private ["PSs9AnyObject", "NSURL"]
+- !private ["PSs9AnyObject", "UIDevice"]
+- !private ["PSs9AnyObject", "UIImage"]
+- !private ["PSs9AnyObject", "af_setImageWithURL"]
+- !private ["PSs9AnyObject", "constant"]
+- !private ["PSs9AnyObject", "currentDevice"]
 - ["PSs9AnyObject", "date"]
+- !private ["PSs9AnyObject", "dateFormat"]
+- !private ["PSs9AnyObject", "dateFromString"]
+- ["PSs9AnyObject", "headerImage"]
+- ["PSs9AnyObject", "heightConstraint"]
+- !private ["PSs9AnyObject", "image"]
 - ["PSs9AnyObject", "init"]
 - ["PSs9AnyObject", "itemDescription"]
 - ["PSs9AnyObject", "itemLocation"]
 - ["PSs9AnyObject", "itemTitle"]
+- !private ["PSs9AnyObject", "locationLine1"]
+- !private ["PSs9AnyObject", "locationLine2"]
 - ["PSs9AnyObject", "starWarItem"]
+- !private ["PSs9AnyObject", "stringFromDate"]
+- !private ["PSs9AnyObject", "text"]
+- !private ["PSs9AnyObject", "title"]
+- ["PSs9AnyObject", "topSpace"]
+- !private ["PSs9AnyObject", "userInterfaceIdiom"]
+- ["PSs9AnyObject", "viewDidLoad"]
 - ["PSs9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["PSs11CVarArgType", "NSDateFormatter"]
+- !private ["PSs11CVarArgType", "NSURL"]
+- !private ["PSs11CVarArgType", "UIDevice"]
+- !private ["PSs11CVarArgType", "UIImage"]
+- !private ["PSs11CVarArgType", "af_setImageWithURL"]
+- !private ["PSs11CVarArgType", "constant"]
+- !private ["PSs11CVarArgType", "currentDevice"]
 - ["PSs11CVarArgType", "date"]
+- !private ["PSs11CVarArgType", "dateFormat"]
+- !private ["PSs11CVarArgType", "dateFromString"]
+- ["PSs11CVarArgType", "headerImage"]
+- ["PSs11CVarArgType", "heightConstraint"]
 - ["PSs11CVarArgType", "init"]
 - ["PSs11CVarArgType", "itemDescription"]
 - ["PSs11CVarArgType", "itemLocation"]
 - ["PSs11CVarArgType", "itemTitle"]
 - ["PSs11CVarArgType", "starWarItem"]
+- !private ["PSs11CVarArgType", "stringFromDate"]
+- !private ["PSs11CVarArgType", "text"]
+- ["PSs11CVarArgType", "topSpace"]
+- !private ["PSs11CVarArgType", "userInterfaceIdiom"]
+- ["PSs11CVarArgType", "viewDidLoad"]
 - ["PSs11CVarArgType", ""]
+- !private ["PSs23CustomStringConvertible", "NSDateFormatter"]
+- !private ["PSs23CustomStringConvertible", "NSURL"]
+- !private ["PSs23CustomStringConvertible", "UIDevice"]
+- !private ["PSs23CustomStringConvertible", "UIImage"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "af_setImageWithURL"]
+- !private ["PSs23CustomStringConvertible", "constant"]
+- !private ["PSs23CustomStringConvertible", "currentDevice"]
 - ["PSs23CustomStringConvertible", "date"]
+- !private ["PSs23CustomStringConvertible", "dateFormat"]
+- !private ["PSs23CustomStringConvertible", "dateFromString"]
+- ["PSs23CustomStringConvertible", "headerImage"]
+- ["PSs23CustomStringConvertible", "heightConstraint"]
 - ["PSs23CustomStringConvertible", "init"]
 - ["PSs23CustomStringConvertible", "itemDescription"]
 - ["PSs23CustomStringConvertible", "itemLocation"]
 - ["PSs23CustomStringConvertible", "itemTitle"]
 - ["PSs23CustomStringConvertible", "starWarItem"]
+- !private ["PSs23CustomStringConvertible", "stringFromDate"]
+- !private ["PSs23CustomStringConvertible", "text"]
+- ["PSs23CustomStringConvertible", "topSpace"]
+- !private ["PSs23CustomStringConvertible", "userInterfaceIdiom"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
 - ["PSs23CustomStringConvertible", ""]
+- !private ["C10PhunwareHW20DetailViewController", "NSDateFormatter"]
+- ["C10PhunwareHW20DetailViewController", "NSLayoutConstraint"]
+- !private ["C10PhunwareHW20DetailViewController", "NSURL"]
 - ["C10PhunwareHW20DetailViewController", "StarWarItem"]
+- !private ["C10PhunwareHW20DetailViewController", "UIDevice"]
+- !private ["C10PhunwareHW20DetailViewController", "UIImage"]
+- ["C10PhunwareHW20DetailViewController", "UIImageView"]
 - ["C10PhunwareHW20DetailViewController", "UILabel"]
 - ["C10PhunwareHW20DetailViewController", "date"]
 - ["C10PhunwareHW20DetailViewController", "deinit"]
+- ["C10PhunwareHW20DetailViewController", "headerImage"]
+- ["C10PhunwareHW20DetailViewController", "heightConstraint"]
 - ["C10PhunwareHW20DetailViewController", "init"]
 - ["C10PhunwareHW20DetailViewController", "itemDescription"]
 - ["C10PhunwareHW20DetailViewController", "itemLocation"]
 - ["C10PhunwareHW20DetailViewController", "itemTitle"]
 - ["C10PhunwareHW20DetailViewController", "starWarItem"]
+- ["C10PhunwareHW20DetailViewController", "topSpace"]
+- ["C10PhunwareHW20DetailViewController", "viewDidLoad"]
+- !private ["Sd", "deinit"]
+- !private ["PSs9Equatable", "NSDateFormatter"]
+- !private ["PSs9Equatable", "NSURL"]
+- !private ["PSs9Equatable", "Pad"]
+- !private ["PSs9Equatable", "RawValue"]
+- !private ["PSs9Equatable", "UIDevice"]
+- !private ["PSs9Equatable", "UIImage"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "af_setImageWithURL"]
+- !private ["PSs9Equatable", "constant"]
+- !private ["PSs9Equatable", "currentDevice"]
 - ["PSs9Equatable", "date"]
+- !private ["PSs9Equatable", "dateFormat"]
+- !private ["PSs9Equatable", "dateFromString"]
+- ["PSs9Equatable", "headerImage"]
+- ["PSs9Equatable", "heightConstraint"]
 - ["PSs9Equatable", "init"]
 - ["PSs9Equatable", "itemDescription"]
 - ["PSs9Equatable", "itemLocation"]
 - ["PSs9Equatable", "itemTitle"]
 - ["PSs9Equatable", "starWarItem"]
+- !private ["PSs9Equatable", "stringFromDate"]
+- !private ["PSs9Equatable", "text"]
+- ["PSs9Equatable", "topSpace"]
+- !private ["PSs9Equatable", "userInterfaceIdiom"]
+- ["PSs9Equatable", "viewDidLoad"]
 - ["PSs9Equatable", ""]
+- !private ["Sf", "deinit"]
+- !private ["VSs7Float80", "deinit"]
+- !private ["PSs8Hashable", "NSDateFormatter"]
+- !private ["PSs8Hashable", "NSURL"]
+- !private ["PSs8Hashable", "Pad"]
+- !private ["PSs8Hashable", "RawValue"]
+- !private ["PSs8Hashable", "UIDevice"]
+- !private ["PSs8Hashable", "UIImage"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "af_setImageWithURL"]
+- !private ["PSs8Hashable", "constant"]
+- !private ["PSs8Hashable", "currentDevice"]
 - ["PSs8Hashable", "date"]
+- !private ["PSs8Hashable", "dateFormat"]
+- !private ["PSs8Hashable", "dateFromString"]
+- ["PSs8Hashable", "headerImage"]
+- ["PSs8Hashable", "heightConstraint"]
 - ["PSs8Hashable", "init"]
 - ["PSs8Hashable", "itemDescription"]
 - ["PSs8Hashable", "itemLocation"]
 - ["PSs8Hashable", "itemTitle"]
 - ["PSs8Hashable", "starWarItem"]
+- !private ["PSs8Hashable", "stringFromDate"]
+- !private ["PSs8Hashable", "text"]
+- ["PSs8Hashable", "topSpace"]
+- !private ["PSs8Hashable", "userInterfaceIdiom"]
+- ["PSs8Hashable", "viewDidLoad"]
 - ["PSs8Hashable", ""]
+- !private ["OE14AlamofireImageCSo11UIImageView15ImageTransition", "CrossDissolve"]
+- !private ["SQ", "deinit"]
+- !private ["Si", "deinit"]
+- !private ["VSs5Int16", "deinit"]
+- !private ["VSs5Int32", "deinit"]
+- !private ["VSs5Int64", "deinit"]
+- !private ["VSs4Int8", "deinit"]
+- !private ["P12ObjectMapper8Mappable", "date"]
+- !private ["P12ObjectMapper8Mappable", "image"]
+- !private ["P12ObjectMapper8Mappable", "itemDescription"]
+- !private ["P12ObjectMapper8Mappable", "locationLine1"]
+- !private ["P12ObjectMapper8Mappable", "locationLine2"]
+- !private ["P12ObjectMapper8Mappable", "title"]
+- !private ["PSo8NSCoding", "NSDateFormatter"]
+- !private ["PSo8NSCoding", "NSURL"]
+- !private ["PSo8NSCoding", "UIDevice"]
+- !private ["PSo8NSCoding", "UIImage"]
+- !private ["PSo8NSCoding", "af_setImageWithURL"]
 - ["PSo8NSCoding", "date"]
+- !private ["PSo8NSCoding", "dateFormat"]
+- !private ["PSo8NSCoding", "dateFromString"]
+- ["PSo8NSCoding", "headerImage"]
+- ["PSo8NSCoding", "heightConstraint"]
 - ["PSo8NSCoding", "init"]
 - ["PSo8NSCoding", "itemDescription"]
 - ["PSo8NSCoding", "itemLocation"]
 - ["PSo8NSCoding", "itemTitle"]
 - ["PSo8NSCoding", "starWarItem"]
+- !private ["PSo8NSCoding", "stringFromDate"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "topSpace"]
+- ["PSo8NSCoding", "viewDidLoad"]
 - ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "dateFormat"]
+- !private ["PSo9NSCopying", "dateFromString"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "stringFromDate"]
+- !private ["CSo15NSDateFormatter", "dateFormat"]
+- !private ["CSo15NSDateFormatter", "dateFromString"]
+- !private ["CSo15NSDateFormatter", "init"]
+- !private ["CSo15NSDateFormatter", "stringFromDate"]
+- !private ["PSo26NSExtensionRequestHandling", "NSDateFormatter"]
+- !private ["PSo26NSExtensionRequestHandling", "NSURL"]
+- !private ["PSo26NSExtensionRequestHandling", "UIDevice"]
+- !private ["PSo26NSExtensionRequestHandling", "UIImage"]
 - ["PSo26NSExtensionRequestHandling", "date"]
+- ["PSo26NSExtensionRequestHandling", "headerImage"]
+- ["PSo26NSExtensionRequestHandling", "heightConstraint"]
 - ["PSo26NSExtensionRequestHandling", "init"]
 - ["PSo26NSExtensionRequestHandling", "itemDescription"]
 - ["PSo26NSExtensionRequestHandling", "itemLocation"]
 - ["PSo26NSExtensionRequestHandling", "itemTitle"]
 - ["PSo26NSExtensionRequestHandling", "starWarItem"]
+- ["PSo26NSExtensionRequestHandling", "topSpace"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - ["PSo26NSExtensionRequestHandling", ""]
+- !private ["CSo11NSFormatter", "dateFormat"]
+- !private ["CSo11NSFormatter", "dateFromString"]
+- !private ["CSo11NSFormatter", "init"]
+- !private ["CSo11NSFormatter", "stringFromDate"]
+- !private ["CSo18NSLayoutConstraint", "constant"]
+- !private ["CSo8NSObject", "NSDateFormatter"]
+- ["CSo8NSObject", "NSLayoutConstraint"]
+- !private ["CSo8NSObject", "NSURL"]
 - ["CSo8NSObject", "StarWarItem"]
+- !private ["CSo8NSObject", "UIDevice"]
+- !private ["CSo8NSObject", "UIImage"]
+- ["CSo8NSObject", "UIImageView"]
 - ["CSo8NSObject", "UILabel"]
+- !private ["CSo8NSObject", "af_setImageWithURL"]
+- !private ["CSo8NSObject", "constant"]
+- !private ["CSo8NSObject", "currentDevice"]
 - ["CSo8NSObject", "date"]
+- !private ["CSo8NSObject", "dateFormat"]
+- !private ["CSo8NSObject", "dateFromString"]
+- ["CSo8NSObject", "headerImage"]
+- ["CSo8NSObject", "heightConstraint"]
 - ["CSo8NSObject", "init"]
 - ["CSo8NSObject", "itemDescription"]
 - ["CSo8NSObject", "itemLocation"]
 - ["CSo8NSObject", "itemTitle"]
 - ["CSo8NSObject", "starWarItem"]
+- !private ["CSo8NSObject", "stringFromDate"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "topSpace"]
+- !private ["CSo8NSObject", "userInterfaceIdiom"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "NSDateFormatter"]
+- !private ["PSo16NSObjectProtocol", "NSURL"]
+- !private ["PSo16NSObjectProtocol", "UIDevice"]
+- !private ["PSo16NSObjectProtocol", "UIImage"]
+- !private ["PSo16NSObjectProtocol", "af_setImageWithURL"]
+- !private ["PSo16NSObjectProtocol", "constant"]
+- !private ["PSo16NSObjectProtocol", "currentDevice"]
 - ["PSo16NSObjectProtocol", "date"]
+- !private ["PSo16NSObjectProtocol", "dateFormat"]
+- !private ["PSo16NSObjectProtocol", "dateFromString"]
+- ["PSo16NSObjectProtocol", "headerImage"]
+- ["PSo16NSObjectProtocol", "heightConstraint"]
 - ["PSo16NSObjectProtocol", "init"]
 - ["PSo16NSObjectProtocol", "itemDescription"]
 - ["PSo16NSObjectProtocol", "itemLocation"]
 - ["PSo16NSObjectProtocol", "itemTitle"]
 - ["PSo16NSObjectProtocol", "starWarItem"]
+- !private ["PSo16NSObjectProtocol", "stringFromDate"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", "topSpace"]
+- !private ["PSo16NSObjectProtocol", "userInterfaceIdiom"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
 - ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo5NSURL", "init"]
+- !private ["Sq", "deinit"]
+- !private ["PSs16RawRepresentable", "Pad"]
+- !private ["PSs16RawRepresentable", "RawValue"]
+- !private ["C10PhunwareHW11StarWarItem", "date"]
+- !private ["C10PhunwareHW11StarWarItem", "image"]
+- !private ["C10PhunwareHW11StarWarItem", "itemDescription"]
+- !private ["C10PhunwareHW11StarWarItem", "locationLine1"]
+- !private ["C10PhunwareHW11StarWarItem", "locationLine2"]
+- !private ["C10PhunwareHW11StarWarItem", "title"]
+- !private ["SS", "deinit"]
+- !private ["PSo29UIAccessibilityIdentification", "af_setImageWithURL"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "af_setImageWithURL"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "NSDateFormatter"]
+- !private ["PSo21UIAppearanceContainer", "NSURL"]
+- !private ["PSo21UIAppearanceContainer", "UIDevice"]
+- !private ["PSo21UIAppearanceContainer", "UIImage"]
+- !private ["PSo21UIAppearanceContainer", "af_setImageWithURL"]
 - ["PSo21UIAppearanceContainer", "date"]
+- ["PSo21UIAppearanceContainer", "headerImage"]
+- ["PSo21UIAppearanceContainer", "heightConstraint"]
 - ["PSo21UIAppearanceContainer", "init"]
 - ["PSo21UIAppearanceContainer", "itemDescription"]
 - ["PSo21UIAppearanceContainer", "itemLocation"]
 - ["PSo21UIAppearanceContainer", "itemTitle"]
 - ["PSo21UIAppearanceContainer", "starWarItem"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "topSpace"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
 - ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "NSDateFormatter"]
+- !private ["PSo18UIContentContainer", "NSURL"]
+- !private ["PSo18UIContentContainer", "UIDevice"]
+- !private ["PSo18UIContentContainer", "UIImage"]
 - ["PSo18UIContentContainer", "date"]
+- ["PSo18UIContentContainer", "headerImage"]
+- ["PSo18UIContentContainer", "heightConstraint"]
 - ["PSo18UIContentContainer", "init"]
 - ["PSo18UIContentContainer", "itemDescription"]
 - ["PSo18UIContentContainer", "itemLocation"]
 - ["PSo18UIContentContainer", "itemTitle"]
 - ["PSo18UIContentContainer", "starWarItem"]
+- ["PSo18UIContentContainer", "topSpace"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
 - ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "af_setImageWithURL"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["CSo8UIDevice", "currentDevice"]
+- !private ["CSo8UIDevice", "userInterfaceIdiom"]
+- !private ["PSo13UIDynamicItem", "af_setImageWithURL"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "NSDateFormatter"]
+- !private ["PSo18UIFocusEnvironment", "NSURL"]
+- !private ["PSo18UIFocusEnvironment", "UIDevice"]
+- !private ["PSo18UIFocusEnvironment", "UIImage"]
+- !private ["PSo18UIFocusEnvironment", "af_setImageWithURL"]
 - ["PSo18UIFocusEnvironment", "date"]
+- ["PSo18UIFocusEnvironment", "headerImage"]
+- ["PSo18UIFocusEnvironment", "heightConstraint"]
 - ["PSo18UIFocusEnvironment", "init"]
 - ["PSo18UIFocusEnvironment", "itemDescription"]
 - ["PSo18UIFocusEnvironment", "itemLocation"]
 - ["PSo18UIFocusEnvironment", "itemTitle"]
 - ["PSo18UIFocusEnvironment", "starWarItem"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "topSpace"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
 - ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo7UIImage", "init"]
+- !private ["CSo11UIImageView", "af_setImageWithURL"]
+- !private ["CSo7UILabel", "text"]
+- !private ["CSo11UIResponder", "NSDateFormatter"]
+- ["CSo11UIResponder", "NSLayoutConstraint"]
+- !private ["CSo11UIResponder", "NSURL"]
 - ["CSo11UIResponder", "StarWarItem"]
+- !private ["CSo11UIResponder", "UIDevice"]
+- !private ["CSo11UIResponder", "UIImage"]
+- ["CSo11UIResponder", "UIImageView"]
 - ["CSo11UIResponder", "UILabel"]
+- !private ["CSo11UIResponder", "af_setImageWithURL"]
 - ["CSo11UIResponder", "date"]
+- ["CSo11UIResponder", "headerImage"]
+- ["CSo11UIResponder", "heightConstraint"]
 - ["CSo11UIResponder", "init"]
 - ["CSo11UIResponder", "itemDescription"]
 - ["CSo11UIResponder", "itemLocation"]
 - ["CSo11UIResponder", "itemTitle"]
 - ["CSo11UIResponder", "starWarItem"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "topSpace"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "NSDateFormatter"]
+- !private ["PSo16UIStateRestoring", "NSURL"]
+- !private ["PSo16UIStateRestoring", "UIDevice"]
+- !private ["PSo16UIStateRestoring", "UIImage"]
 - ["PSo16UIStateRestoring", "date"]
+- ["PSo16UIStateRestoring", "headerImage"]
+- ["PSo16UIStateRestoring", "heightConstraint"]
 - ["PSo16UIStateRestoring", "init"]
 - ["PSo16UIStateRestoring", "itemDescription"]
 - ["PSo16UIStateRestoring", "itemLocation"]
 - ["PSo16UIStateRestoring", "itemTitle"]
 - ["PSo16UIStateRestoring", "starWarItem"]
+- ["PSo16UIStateRestoring", "topSpace"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
 - ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "NSDateFormatter"]
+- !private ["PSo18UITraitEnvironment", "NSURL"]
+- !private ["PSo18UITraitEnvironment", "UIDevice"]
+- !private ["PSo18UITraitEnvironment", "UIImage"]
+- !private ["PSo18UITraitEnvironment", "af_setImageWithURL"]
 - ["PSo18UITraitEnvironment", "date"]
+- ["PSo18UITraitEnvironment", "headerImage"]
+- ["PSo18UITraitEnvironment", "heightConstraint"]
 - ["PSo18UITraitEnvironment", "init"]
 - ["PSo18UITraitEnvironment", "itemDescription"]
 - ["PSo18UITraitEnvironment", "itemLocation"]
 - ["PSo18UITraitEnvironment", "itemTitle"]
 - ["PSo18UITraitEnvironment", "starWarItem"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "topSpace"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
 - ["PSo18UITraitEnvironment", ""]
+- !private ["OSC20UIUserInterfaceIdiom", "Pad"]
+- !private ["OSC20UIUserInterfaceIdiom", "RawValue"]
+- !private ["OSC20UIUserInterfaceIdiom", "deinit"]
+- !private ["CSo6UIView", "af_setImageWithURL"]
+- !private ["CSo6UIView", "text"]
+- !private ["CSo16UIViewController", "NSDateFormatter"]
+- ["CSo16UIViewController", "NSLayoutConstraint"]
+- !private ["CSo16UIViewController", "NSURL"]
 - ["CSo16UIViewController", "StarWarItem"]
+- !private ["CSo16UIViewController", "UIDevice"]
+- !private ["CSo16UIViewController", "UIImage"]
+- ["CSo16UIViewController", "UIImageView"]
 - ["CSo16UIViewController", "UILabel"]
 - ["CSo16UIViewController", "date"]
+- ["CSo16UIViewController", "headerImage"]
+- ["CSo16UIViewController", "heightConstraint"]
 - ["CSo16UIViewController", "init"]
 - ["CSo16UIViewController", "itemDescription"]
 - ["CSo16UIViewController", "itemLocation"]
 - ["CSo16UIViewController", "itemTitle"]
 - ["CSo16UIViewController", "starWarItem"]
+- ["CSo16UIViewController", "topSpace"]
+- ["CSo16UIViewController", "viewDidLoad"]
 - ["CSo16UIViewController", ""]
+- !private ["Su", "deinit"]
+- !private ["VSs6UInt16", "deinit"]
+- !private ["VSs6UInt32", "deinit"]
+- !private ["VSs6UInt64", "deinit"]
+- !private ["VSs5UInt8", "deinit"]
+- !private ["P9Alamofire20URLStringConvertible", "init"]
+- !private ["VSs20UnsafeMutablePointer", "deinit"]
+- !private ["VSs13UnsafePointer", "deinit"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs32_FileReferenceLiteralConvertible", "init"]
+- !private ["PSs24_ImageLiteralConvertible", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["VSs26_OptionalNilComparisonType", "deinit"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "af_setImageWithURL"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "text"]
 depends-nominal:
 - "PSs9AnyObject"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- !private "V12CoreGraphics7CGFloat"
 - "PSs11CVarArgType"
 - "PSs23CustomStringConvertible"
 - "C10PhunwareHW20DetailViewController"
+- !private "Sd"
 - "PSs9Equatable"
+- !private "Sf"
+- !private "VSs7Float80"
 - "PSs8Hashable"
+- !private "OE14AlamofireImageCSo11UIImageView15ImageTransition"
+- !private "SQ"
+- !private "Si"
+- !private "VSs5Int16"
+- !private "VSs5Int32"
+- !private "VSs5Int64"
+- !private "VSs4Int8"
+- !private "P12ObjectMapper8Mappable"
 - "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo15NSDateFormatter"
 - "PSo26NSExtensionRequestHandling"
+- !private "CSo11NSFormatter"
+- !private "CSo18NSLayoutConstraint"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo5NSURL"
+- !private "Sq"
+- !private "PSs16RawRepresentable"
+- !private "C10PhunwareHW11StarWarItem"
+- !private "SS"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
 - "PSo21UIAppearanceContainer"
 - "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "CSo8UIDevice"
+- !private "PSo13UIDynamicItem"
 - "PSo18UIFocusEnvironment"
+- !private "CSo7UIImage"
+- !private "CSo11UIImageView"
+- !private "CSo7UILabel"
 - "CSo11UIResponder"
 - "PSo16UIStateRestoring"
 - "PSo18UITraitEnvironment"
+- !private "OSC20UIUserInterfaceIdiom"
+- !private "CSo6UIView"
 - "CSo16UIViewController"
+- !private "Su"
+- !private "VSs6UInt16"
+- !private "VSs6UInt32"
+- !private "VSs6UInt64"
+- !private "VSs5UInt8"
+- !private "P9Alamofire20URLStringConvertible"
+- !private "VSs20UnsafeMutablePointer"
+- !private "VSs13UnsafePointer"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs32_FileReferenceLiteralConvertible"
+- !private "PSs24_ImageLiteralConvertible"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "VSs26_OptionalNilComparisonType"
+- !private "PSs12_Reflectable"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
@@ -185,4 +554,4 @@ depends-external:
 - "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-Swift.h"
 - "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-umbrella.h"
 - "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireObjectMapper.framework/Modules/module.modulemap"
-interface-hash: "91aa35dd62e5b3e0128917549a41dc07"
+interface-hash: "8af20e7c127fdf22cdd1057c6257af46"

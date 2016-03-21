@@ -111,6 +111,7 @@ SWIFT_CLASS("_TtC10PhunwareHW11AppDelegate")
 
 @class UILabel;
 @class UIImageView;
+@class NSLayoutConstraint;
 @class NSBundle;
 @class NSCoder;
 
@@ -121,6 +122,8 @@ SWIFT_CLASS("_TtC10PhunwareHW20DetailViewController")
 @property (nonatomic, weak) IBOutlet UILabel * __null_unspecified itemTitle;
 @property (nonatomic, weak) IBOutlet UILabel * __null_unspecified date;
 @property (nonatomic, weak) IBOutlet UIImageView * __null_unspecified headerImage;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * __null_unspecified heightConstraint;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * __null_unspecified topSpace;
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;

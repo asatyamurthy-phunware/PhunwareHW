@@ -6,49 +6,48 @@ provides-nominal:
 provides-member:
 - ["C10PhunwareHW18ListViewController", ""]
 provides-dynamic-lookup:
+- "didReceiveMemoryWarning"
+- "willAnimateRotationToInterfaceOrientation"
 - "collectionView"
 - "collectionView"
 - "collectionView"
 - "collectionView"
-- "collectionView"
+- "viewDidLoad"
 - "prepareForSegue"
 - "numberOfSectionsInCollectionView"
-- "willAnimateRotationToInterfaceOrientation"
-- "viewDidLoad"
-- "didReceiveMemoryWarning"
 depends-top-level:
-- !private "&&"
-- !private "UIScreen"
-- !private "!="
-- !private "NetworkClient"
-- "UICollectionViewDataSource"
-- !private "ListItemCell"
-- "UICollectionView"
-- "StarWarItem"
-- !private "NSDateFormatter"
-- !private "/"
-- "UIViewController"
-- "UICollectionViewDelegateFlowLayout"
-- !private "DetailViewController"
-- !private "=="
 - !private "CGSizeMake"
 - "ListViewController"
-- !private "UIDevice"
-- "UIInterfaceOrientation"
-- "NSIndexPath"
-- "Int"
 - "CGSize"
-- "UICollectionViewLayout"
-- !private "NSURL"
-- !private "CGFloat"
-- "NSTimeInterval"
-- "AnyObject"
-- !private "+"
-- !private "StringLiteralType"
-- "UIStoryboardSegue"
 - !private "Void"
-- !private "UIImage"
+- "NSIndexPath"
+- !private "+"
+- "UICollectionViewLayout"
+- !private "CGFloat"
+- "Int"
+- "UIStoryboardSegue"
 - "UICollectionViewCell"
+- "StarWarItem"
+- !private "NSURL"
+- !private "UIImage"
+- !private "DetailViewController"
+- "UIInterfaceOrientation"
+- !private "UIScreen"
+- !private "StringLiteralType"
+- !private "&&"
+- "AnyObject"
+- !private "!="
+- "NSTimeInterval"
+- !private "NSDateFormatter"
+- !private "/"
+- !private "ListItemCell"
+- "UICollectionView"
+- "UICollectionViewDelegateFlowLayout"
+- !private "NetworkClient"
+- !private "UIDevice"
+- !private "=="
+- "UIViewController"
+- "UICollectionViewDataSource"
 depends-member:
 - !private ["PSs16AbsoluteValuable", "init"]
 - !private ["PSs9AnyObject", "CGFloat"]
@@ -66,7 +65,6 @@ depends-member:
 - ["PSs9AnyObject", "collectionView"]
 - !private ["PSs9AnyObject", "collectionViewLayout"]
 - !private ["PSs9AnyObject", "currentDevice"]
-- ["PSs9AnyObject", "currentItem"]
 - !private ["PSs9AnyObject", "date"]
 - !private ["PSs9AnyObject", "dateFormat"]
 - !private ["PSs9AnyObject", "dateFromString"]
@@ -75,6 +73,7 @@ depends-member:
 - ["PSs9AnyObject", "didReceiveMemoryWarning"]
 - !private ["PSs9AnyObject", "getFeedItems"]
 - !private ["PSs9AnyObject", "image"]
+- !private ["PSs9AnyObject", "indexPathForCell"]
 - ["PSs9AnyObject", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["PSs9AnyObject", "init"]
 - !private ["PSs9AnyObject", "invalidateLayout"]
@@ -153,13 +152,13 @@ depends-member:
 - ["PSs11CVarArgType", "collectionView"]
 - !private ["PSs11CVarArgType", "collectionViewLayout"]
 - !private ["PSs11CVarArgType", "currentDevice"]
-- ["PSs11CVarArgType", "currentItem"]
 - !private ["PSs11CVarArgType", "date"]
 - !private ["PSs11CVarArgType", "dateFormat"]
 - !private ["PSs11CVarArgType", "dateFromString"]
 - !private ["PSs11CVarArgType", "dequeueReusableCellWithReuseIdentifier"]
 - !private ["PSs11CVarArgType", "destinationViewController"]
 - ["PSs11CVarArgType", "didReceiveMemoryWarning"]
+- !private ["PSs11CVarArgType", "indexPathForCell"]
 - ["PSs11CVarArgType", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["PSs11CVarArgType", "init"]
 - !private ["PSs11CVarArgType", "invalidateLayout"]
@@ -230,13 +229,13 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "collectionViewLayout"]
 - !private ["PSs23CustomStringConvertible", "count"]
 - !private ["PSs23CustomStringConvertible", "currentDevice"]
-- ["PSs23CustomStringConvertible", "currentItem"]
 - !private ["PSs23CustomStringConvertible", "date"]
 - !private ["PSs23CustomStringConvertible", "dateFormat"]
 - !private ["PSs23CustomStringConvertible", "dateFromString"]
 - !private ["PSs23CustomStringConvertible", "dequeueReusableCellWithReuseIdentifier"]
 - !private ["PSs23CustomStringConvertible", "destinationViewController"]
 - ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["PSs23CustomStringConvertible", "indexPathForCell"]
 - ["PSs23CustomStringConvertible", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["PSs23CustomStringConvertible", "init"]
 - !private ["PSs23CustomStringConvertible", "invalidateLayout"]
@@ -291,7 +290,6 @@ depends-member:
 - ["PSs9Equatable", "collectionView"]
 - !private ["PSs9Equatable", "collectionViewLayout"]
 - !private ["PSs9Equatable", "currentDevice"]
-- ["PSs9Equatable", "currentItem"]
 - !private ["PSs9Equatable", "date"]
 - !private ["PSs9Equatable", "dateFormat"]
 - !private ["PSs9Equatable", "dateFromString"]
@@ -299,6 +297,7 @@ depends-member:
 - !private ["PSs9Equatable", "destinationViewController"]
 - ["PSs9Equatable", "didReceiveMemoryWarning"]
 - !private ["PSs9Equatable", "height"]
+- !private ["PSs9Equatable", "indexPathForCell"]
 - ["PSs9Equatable", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["PSs9Equatable", "init"]
 - !private ["PSs9Equatable", "invalidateLayout"]
@@ -358,13 +357,13 @@ depends-member:
 - ["PSs8Hashable", "collectionView"]
 - !private ["PSs8Hashable", "collectionViewLayout"]
 - !private ["PSs8Hashable", "currentDevice"]
-- ["PSs8Hashable", "currentItem"]
 - !private ["PSs8Hashable", "date"]
 - !private ["PSs8Hashable", "dateFormat"]
 - !private ["PSs8Hashable", "dateFromString"]
 - !private ["PSs8Hashable", "dequeueReusableCellWithReuseIdentifier"]
 - !private ["PSs8Hashable", "destinationViewController"]
 - ["PSs8Hashable", "didReceiveMemoryWarning"]
+- !private ["PSs8Hashable", "indexPathForCell"]
 - ["PSs8Hashable", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["PSs8Hashable", "init"]
 - !private ["PSs8Hashable", "invalidateLayout"]
@@ -444,7 +443,6 @@ depends-member:
 - ["C10PhunwareHW18ListViewController", "UIStoryboardSegue"]
 - !private ["C10PhunwareHW18ListViewController", "Void"]
 - ["C10PhunwareHW18ListViewController", "collectionView"]
-- ["C10PhunwareHW18ListViewController", "currentItem"]
 - ["C10PhunwareHW18ListViewController", "deinit"]
 - ["C10PhunwareHW18ListViewController", "didReceiveMemoryWarning"]
 - ["C10PhunwareHW18ListViewController", "indexPathForPreferredFocusedViewInCollectionView"]
@@ -506,12 +504,12 @@ depends-member:
 - !private ["PSo8NSCoding", "backgroundImage"]
 - ["PSo8NSCoding", "collectionView"]
 - !private ["PSo8NSCoding", "collectionViewLayout"]
-- ["PSo8NSCoding", "currentItem"]
 - !private ["PSo8NSCoding", "date"]
 - !private ["PSo8NSCoding", "dateFormat"]
 - !private ["PSo8NSCoding", "dateFromString"]
 - !private ["PSo8NSCoding", "dequeueReusableCellWithReuseIdentifier"]
 - ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "indexPathForCell"]
 - ["PSo8NSCoding", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["PSo8NSCoding", "init"]
 - !private ["PSo8NSCoding", "invalidateLayout"]
@@ -561,7 +559,6 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "UIImage"]
 - !private ["PSo26NSExtensionRequestHandling", "UIScreen"]
 - ["PSo26NSExtensionRequestHandling", "collectionView"]
-- ["PSo26NSExtensionRequestHandling", "currentItem"]
 - ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
 - ["PSo26NSExtensionRequestHandling", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["PSo26NSExtensionRequestHandling", "init"]
@@ -618,13 +615,13 @@ depends-member:
 - ["CSo8NSObject", "collectionView"]
 - !private ["CSo8NSObject", "collectionViewLayout"]
 - !private ["CSo8NSObject", "currentDevice"]
-- ["CSo8NSObject", "currentItem"]
 - !private ["CSo8NSObject", "date"]
 - !private ["CSo8NSObject", "dateFormat"]
 - !private ["CSo8NSObject", "dateFromString"]
 - !private ["CSo8NSObject", "dequeueReusableCellWithReuseIdentifier"]
 - !private ["CSo8NSObject", "destinationViewController"]
 - ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "indexPathForCell"]
 - ["CSo8NSObject", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["CSo8NSObject", "init"]
 - !private ["CSo8NSObject", "invalidateLayout"]
@@ -671,13 +668,13 @@ depends-member:
 - ["PSo16NSObjectProtocol", "collectionView"]
 - !private ["PSo16NSObjectProtocol", "collectionViewLayout"]
 - !private ["PSo16NSObjectProtocol", "currentDevice"]
-- ["PSo16NSObjectProtocol", "currentItem"]
 - !private ["PSo16NSObjectProtocol", "date"]
 - !private ["PSo16NSObjectProtocol", "dateFormat"]
 - !private ["PSo16NSObjectProtocol", "dateFromString"]
 - !private ["PSo16NSObjectProtocol", "dequeueReusableCellWithReuseIdentifier"]
 - !private ["PSo16NSObjectProtocol", "destinationViewController"]
 - ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "indexPathForCell"]
 - ["PSo16NSObjectProtocol", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo16NSObjectProtocol", "invalidateLayout"]
@@ -757,6 +754,7 @@ depends-member:
 - !private ["PSo29UIAccessibilityIdentification", "collectionViewLayout"]
 - !private ["PSo29UIAccessibilityIdentification", "date"]
 - !private ["PSo29UIAccessibilityIdentification", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["PSo29UIAccessibilityIdentification", "indexPathForCell"]
 - !private ["PSo29UIAccessibilityIdentification", "init"]
 - !private ["PSo29UIAccessibilityIdentification", "itemDescription"]
 - !private ["PSo29UIAccessibilityIdentification", "location"]
@@ -768,6 +766,7 @@ depends-member:
 - !private ["PSo12UIAppearance", "collectionViewLayout"]
 - !private ["PSo12UIAppearance", "date"]
 - !private ["PSo12UIAppearance", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["PSo12UIAppearance", "indexPathForCell"]
 - !private ["PSo12UIAppearance", "itemDescription"]
 - !private ["PSo12UIAppearance", "location"]
 - !private ["PSo12UIAppearance", "reloadData"]
@@ -786,10 +785,10 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "backgroundImage"]
 - ["PSo21UIAppearanceContainer", "collectionView"]
 - !private ["PSo21UIAppearanceContainer", "collectionViewLayout"]
-- ["PSo21UIAppearanceContainer", "currentItem"]
 - !private ["PSo21UIAppearanceContainer", "date"]
 - !private ["PSo21UIAppearanceContainer", "dequeueReusableCellWithReuseIdentifier"]
 - ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "indexPathForCell"]
 - ["PSo21UIAppearanceContainer", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["PSo21UIAppearanceContainer", "init"]
 - !private ["PSo21UIAppearanceContainer", "itemDescription"]
@@ -824,6 +823,7 @@ depends-member:
 - !private ["CSo24UICollectionReusableView", "title"]
 - !private ["CSo16UICollectionView", "collectionViewLayout"]
 - !private ["CSo16UICollectionView", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["CSo16UICollectionView", "indexPathForCell"]
 - !private ["CSo16UICollectionView", "reloadData"]
 - !private ["CSo20UICollectionViewCell", "backgroundImage"]
 - !private ["CSo20UICollectionViewCell", "date"]
@@ -841,7 +841,6 @@ depends-member:
 - !private ["PSo26UICollectionViewDataSource", "UIImage"]
 - !private ["PSo26UICollectionViewDataSource", "UIScreen"]
 - ["PSo26UICollectionViewDataSource", "collectionView"]
-- !private ["PSo26UICollectionViewDataSource", "currentItem"]
 - ["PSo26UICollectionViewDataSource", "indexPathForPreferredFocusedViewInCollectionView"]
 - !private ["PSo26UICollectionViewDataSource", "items"]
 - ["PSo26UICollectionViewDataSource", "numberOfSectionsInCollectionView"]
@@ -869,7 +868,6 @@ depends-member:
 - !private ["PSo24UICollectionViewDelegate", "UIImage"]
 - !private ["PSo24UICollectionViewDelegate", "UIScreen"]
 - ["PSo24UICollectionViewDelegate", "collectionView"]
-- !private ["PSo24UICollectionViewDelegate", "currentItem"]
 - ["PSo24UICollectionViewDelegate", "indexPathForPreferredFocusedViewInCollectionView"]
 - !private ["PSo24UICollectionViewDelegate", "items"]
 - ["PSo24UICollectionViewDelegate", "numberOfSectionsInCollectionView"]
@@ -897,7 +895,6 @@ depends-member:
 - !private ["PSo34UICollectionViewDelegateFlowLayout", "UIImage"]
 - !private ["PSo34UICollectionViewDelegateFlowLayout", "UIScreen"]
 - ["PSo34UICollectionViewDelegateFlowLayout", "collectionView"]
-- !private ["PSo34UICollectionViewDelegateFlowLayout", "currentItem"]
 - ["PSo34UICollectionViewDelegateFlowLayout", "indexPathForPreferredFocusedViewInCollectionView"]
 - !private ["PSo34UICollectionViewDelegateFlowLayout", "items"]
 - ["PSo34UICollectionViewDelegateFlowLayout", "numberOfSectionsInCollectionView"]
@@ -926,7 +923,6 @@ depends-member:
 - !private ["PSo18UIContentContainer", "UIImage"]
 - !private ["PSo18UIContentContainer", "UIScreen"]
 - ["PSo18UIContentContainer", "collectionView"]
-- ["PSo18UIContentContainer", "currentItem"]
 - ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
 - ["PSo18UIContentContainer", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["PSo18UIContentContainer", "init"]
@@ -955,6 +951,7 @@ depends-member:
 - !private ["PSo17UICoordinateSpace", "collectionViewLayout"]
 - !private ["PSo17UICoordinateSpace", "date"]
 - !private ["PSo17UICoordinateSpace", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["PSo17UICoordinateSpace", "indexPathForCell"]
 - !private ["PSo17UICoordinateSpace", "itemDescription"]
 - !private ["PSo17UICoordinateSpace", "location"]
 - !private ["PSo17UICoordinateSpace", "reloadData"]
@@ -967,6 +964,7 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "collectionViewLayout"]
 - !private ["PSo13UIDynamicItem", "date"]
 - !private ["PSo13UIDynamicItem", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["PSo13UIDynamicItem", "indexPathForCell"]
 - !private ["PSo13UIDynamicItem", "itemDescription"]
 - !private ["PSo13UIDynamicItem", "location"]
 - !private ["PSo13UIDynamicItem", "reloadData"]
@@ -985,10 +983,10 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "backgroundImage"]
 - ["PSo18UIFocusEnvironment", "collectionView"]
 - !private ["PSo18UIFocusEnvironment", "collectionViewLayout"]
-- ["PSo18UIFocusEnvironment", "currentItem"]
 - !private ["PSo18UIFocusEnvironment", "date"]
 - !private ["PSo18UIFocusEnvironment", "dequeueReusableCellWithReuseIdentifier"]
 - ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "indexPathForCell"]
 - ["PSo18UIFocusEnvironment", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["PSo18UIFocusEnvironment", "init"]
 - !private ["PSo18UIFocusEnvironment", "itemDescription"]
@@ -1045,10 +1043,10 @@ depends-member:
 - !private ["CSo11UIResponder", "backgroundImage"]
 - ["CSo11UIResponder", "collectionView"]
 - !private ["CSo11UIResponder", "collectionViewLayout"]
-- ["CSo11UIResponder", "currentItem"]
 - !private ["CSo11UIResponder", "date"]
 - !private ["CSo11UIResponder", "dequeueReusableCellWithReuseIdentifier"]
 - ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- !private ["CSo11UIResponder", "indexPathForCell"]
 - ["CSo11UIResponder", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["CSo11UIResponder", "init"]
 - !private ["CSo11UIResponder", "itemDescription"]
@@ -1079,6 +1077,7 @@ depends-member:
 - !private ["CSo8UIScreen", "mainScreen"]
 - !private ["CSo12UIScrollView", "collectionViewLayout"]
 - !private ["CSo12UIScrollView", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["CSo12UIScrollView", "indexPathForCell"]
 - !private ["CSo12UIScrollView", "reloadData"]
 - !private ["PSo20UIScrollViewDelegate", "CGFloat"]
 - !private ["PSo20UIScrollViewDelegate", "CGSizeMake"]
@@ -1090,7 +1089,6 @@ depends-member:
 - !private ["PSo20UIScrollViewDelegate", "UIImage"]
 - !private ["PSo20UIScrollViewDelegate", "UIScreen"]
 - ["PSo20UIScrollViewDelegate", "collectionView"]
-- !private ["PSo20UIScrollViewDelegate", "currentItem"]
 - ["PSo20UIScrollViewDelegate", "indexPathForPreferredFocusedViewInCollectionView"]
 - !private ["PSo20UIScrollViewDelegate", "items"]
 - ["PSo20UIScrollViewDelegate", "numberOfSectionsInCollectionView"]
@@ -1118,7 +1116,6 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "UIImage"]
 - !private ["PSo16UIStateRestoring", "UIScreen"]
 - ["PSo16UIStateRestoring", "collectionView"]
-- ["PSo16UIStateRestoring", "currentItem"]
 - ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
 - ["PSo16UIStateRestoring", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["PSo16UIStateRestoring", "init"]
@@ -1157,10 +1154,10 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "bounds"]
 - ["PSo18UITraitEnvironment", "collectionView"]
 - !private ["PSo18UITraitEnvironment", "collectionViewLayout"]
-- ["PSo18UITraitEnvironment", "currentItem"]
 - !private ["PSo18UITraitEnvironment", "date"]
 - !private ["PSo18UITraitEnvironment", "dequeueReusableCellWithReuseIdentifier"]
 - ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "indexPathForCell"]
 - ["PSo18UITraitEnvironment", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["PSo18UITraitEnvironment", "init"]
 - !private ["PSo18UITraitEnvironment", "itemDescription"]
@@ -1197,6 +1194,7 @@ depends-member:
 - !private ["CSo6UIView", "collectionViewLayout"]
 - !private ["CSo6UIView", "date"]
 - !private ["CSo6UIView", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["CSo6UIView", "indexPathForCell"]
 - !private ["CSo6UIView", "itemDescription"]
 - !private ["CSo6UIView", "location"]
 - !private ["CSo6UIView", "reloadData"]
@@ -1225,7 +1223,6 @@ depends-member:
 - ["CSo16UIViewController", "UIStoryboardSegue"]
 - !private ["CSo16UIViewController", "Void"]
 - ["CSo16UIViewController", "collectionView"]
-- ["CSo16UIViewController", "currentItem"]
 - !private ["CSo16UIViewController", "deinit"]
 - ["CSo16UIViewController", "didReceiveMemoryWarning"]
 - ["CSo16UIViewController", "indexPathForPreferredFocusedViewInCollectionView"]
@@ -1301,6 +1298,7 @@ depends-member:
 - !private ["PSs12_Reflectable", "date"]
 - !private ["PSs12_Reflectable", "dequeueReusableCellWithReuseIdentifier"]
 - !private ["PSs12_Reflectable", "height"]
+- !private ["PSs12_Reflectable", "indexPathForCell"]
 - ["PSs12_Reflectable", "init"]
 - !private ["PSs12_Reflectable", "itemDescription"]
 - !private ["PSs12_Reflectable", "location"]
@@ -1449,4 +1447,4 @@ depends-external:
 - "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-Swift.h"
 - "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireObjectMapper.framework/Headers/AlamofireObjectMapper-umbrella.h"
 - "/Users/asatyamurthy/Desktop/PhunwareHW/build/Debug-iphonesimulator/AlamofireObjectMapper.framework/Modules/module.modulemap"
-interface-hash: "8a7d54a44f447a20a5c72bb9adb2b316"
+interface-hash: "1808486d4577e3311152f1e0a1e76dc4"
